@@ -4,8 +4,31 @@ Repo for codes for integrating gestures from Leap motion with Blender/OpenGL
 # Dive In
 
 # Requirements
+* Python3
+* PyOpenGL
 
 # Install
+* Installation instructions (assuming Ubuntu, 64 bit):
+  ```bash
+  dpkg -i ./SDK/Leap*x64.deb # x86.deb for 32 bit versions
+  ```
+
+* Only if case the system uses systemd instead of Upstart, do the
+following:
+  ```bash
+  cp systemd/leapd.service /lib/systemd/system/leapd.service
+  cp /lib/systemd/system/leapd.service /etc/systemd/system/leapd.service
+  systemctl daemon-reload
+  systemctl enable leapd
+  systemctl leapd start
+  ```
+
+* Follow these by:
+  ```bash
+  apt install -f
+  apt install python3 python3-pip
+  pip3 install PyOpenGL PyOpenGL_accelerate
+  ```
 
 # Contributors
 @kunaltyagi
