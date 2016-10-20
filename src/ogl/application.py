@@ -60,10 +60,14 @@ class GLInterface(object):
     def key_down(self, key):
         if key == pygame.K_ESCAPE:
             self.stop_and_exit()
-        elif key == pygame.K_w:
+        elif key == pygame.K_i:
             glRotatef(-15, 0, 1, 0)
-        elif key == pygame.K_s:
+        elif key == pygame.K_k:
             glRotatef(15, 0, 1, 0)
+        elif key == pygame.K_w:
+            glTranslatef(0, 0, 10)
+        elif key == pygame.K_s:
+            glTranslatef(0, 0, -10)
         else:
             self.unimplemented("Key press for {}".format(key))
         # TODO: buffer of keyboard to poll for key up event
