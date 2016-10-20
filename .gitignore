@@ -1,1 +1,3 @@
 SDK
+*.pyc
+__pycache__
