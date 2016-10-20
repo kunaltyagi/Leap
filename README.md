@@ -6,8 +6,6 @@ Repo for codes for integrating gestures from Leap motion with Blender/OpenGL
 # Requirements
 * Python3
 * PyOpenGL
-http://pyopengl.sourceforge.net/documentation/installation.html
-http://pyopengl.sourceforge.net/context/tutorials/shader_intro.html
 
 # Install
 * Installation instructions (assuming Ubuntu, 64 bit):
@@ -31,6 +29,8 @@ following:
   apt install python3 python3-pip python3-virtualenv
   pip3 install PyOpenGL PyOpenGL_accelerate
   ```
+* For more details, see
+[Installation](http://pyopengl.sourceforge.net/documentation/installation.html) and [Tutorial](http://pyopengl.sourceforge.net/context/tutorials/shader_intro.html) instructions
 
 # Contributors
 @kunaltyagi
