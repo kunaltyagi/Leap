@@ -41,8 +41,11 @@ class Application(GLInterface):
         self.cube = Cube()
 
     def key_down(self, key):
-        if key == pygame.K_ESCAPE:
-            self.stop_and_exit()
+        # Move this out of key_down function
+        if key == pygame.K_UP:
+            glRotatef(15, 0, 1, 0)
+        elif key == pygame.K_DOWN:
+            glRotatef(-15, 0, 1, 0)
         elif key == pygame.K_i:
             glTranslatef(*[-1*x for x in self.eye])
             glRotatef(15, 0, 1, 0)
@@ -55,9 +58,8 @@ class Application(GLInterface):
             glTranslatef(0, 0, 10)
         elif key == pygame.K_s:
             glTranslatef(0, 0, -10)
-        else:
-            GLInterface.key_down(self, key)
-        # TODO: buffer of keyboard to poll for key up event
+        # Handle <Esc> specially if you don't want the program to end here
+        GLInterface.key_down(self, key)
 
     def display_loop(self):
         GLInterface.display_loop(self)

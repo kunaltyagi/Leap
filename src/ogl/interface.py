@@ -17,11 +17,7 @@ class GLInterface(object): #pylint: disable=too-many-instance-attributes
     Creates a screen, and allows easy evaluation of events
     """
     def __init__(self):
-        pygame.init()
         self.display = (800, 600)
-        pygame.display.set_mode(self.display, pygame.DOUBLEBUF|pygame.OPENGL)
-        pygame.display.set_caption("CAD Demo")
-
         self.center = [0, 0, 0]
         self.eye = [-40, 0, 0]
         self.up = [0, 0, 1]  # pylint: disable=invalid-name
@@ -29,6 +25,11 @@ class GLInterface(object): #pylint: disable=too-many-instance-attributes
         self.near = 0.1
         self.far = 100
         self.bg_color = [0.1, 0.1, 0.5, 0.2]
+        self.keys = {} # 133 keys in PyGame
+
+        pygame.init()
+        pygame.display.set_mode(self.display, pygame.DOUBLEBUF|pygame.OPENGL)
+        pygame.display.set_caption("CAD Demo")
 
     def event_handler(self, event):
         """
@@ -52,7 +53,7 @@ class GLInterface(object): #pylint: disable=too-many-instance-attributes
         Args:
             key: key unpressed
         """
-        self.unimplemented("Event Key Up {}".format(key))
+        self.keys[key] = False
 
     def key_down(self, key):
         """
@@ -61,9 +62,7 @@ class GLInterface(object): #pylint: disable=too-many-instance-attributes
         """
         if key == pygame.K_ESCAPE:
             self.stop_and_exit()
-        else:
-            self.unimplemented("Key press for {}".format(key))
-        # TODO: buffer of keyboard to poll for key up event
+        self.keys[key] = True
 
     def mouse_button_up(self, event):
         """
