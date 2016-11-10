@@ -38,8 +38,22 @@ class gestures():
 		
 class ClearSpace(gestures):
 	
-	def is_gesture():
-		
+	def is_gesture(self, frame):
+		pass
+	
+	def gesture_details(self)
+		pass
+
+class Point(gestures):
+	point_from = None
+	point_to = None
+
+	def is_gesture(self, frame):
+		pass
+	
+	def gesture_details(self):
+		pass
+	
 
 	
 class LeapListener(Leap.Listener):
