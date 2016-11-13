@@ -198,7 +198,8 @@ class LeapListener(Leap.Listener):
 		elif gesture_detected == "Point":
 			print("Frame: %d Current Gesture: %s, Finger type: %s,"
 			%(frame.id, gesture_detected, self.finger_names[forward_finger.type]))
-			print("Finger-tip-position:", point_from.to_tuple(), "\t Pointing to:", point_to.to_tuple()) 
+			print("Finger-tip-position:", point_from.to_tuple())
+			print("Pointing to:", point_to.to_tuple()) 
 
 
 
