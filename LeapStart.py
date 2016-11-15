@@ -180,6 +180,7 @@ class LeapListener(Leap.Listener):
 		#gestures = {'clearSpace':[], 'point':[]}
 
 		gesture_flag = False
+		gesture_name = ""
 		hand_count = HandCount(controller)
 		parameters = {'Current Frame ID': frame.id}
 		print(hand_count)
@@ -189,16 +190,16 @@ class LeapListener(Leap.Listener):
 			rel_orient = left.palm_normal.x*right.palm_normal.x
 
 			if rel_orient < 0 and rel_x_velocity > 100:
-				if( self.detected_gestures['type'] == "No gesture"):
+				gesture_flag = True
+				gesture_name = "Clear Space"
+				if( self.detected_gestures['type'] != gesture_name):
 					parameters['start'] = frame.id
-					parameters['Left Normal'] = left.palm_normal
-					parameters['Left position'] = left.palm_position
-					parameters['Right position'] = right.palm_position
-					parameters['Right Normal'] = right.palm_normal
-					self.detected_gestures['type'] = "Clear Space"
+				parameters['Left Normal'] = left.palm_normal
+				parameters['Left position'] = left.palm_position
+				parameters['Right position'] = right.palm_position
+				parameters['Right Normal'] = right.palm_normal
 
 				#self.update_gesture("Clear Space", parameters)
-				gesture_flag = True
 
 				# Define parameters to characterise the gesture.
 				
@@ -209,23 +210,24 @@ class LeapListener(Leap.Listener):
 			finger_count = len(extended_fingers)
 			if finger_count == 1 and extended_fingers[0].type == 1:
 				#index_tip_vel = FingerTipVelocity(self, controller)
-
 				gesture_name = "Point"
+				if self.detected_gestures['type'] != gesture_name:
+					parameters['start'] = frame.id	
+				gesture_flag = True
+
 				forward_finger = extended_fingers[0]
 				point_from = forward_finger.stabilized_tip_position
 				point_to = forward_finger.direction.normalized
 				parameters = {'current frame': frame.id, 'from':point_from, 'to':point_to}
 				# Return the position on screen being pointed by the
 				# forward most finger
-				if self.detected_gestures['type'] != gesture_name:
-					parameters['start'] = frame.id	
-				gesture_flag = True
-
+			
 		print('Frame: %d' %(frame.id))
 		if( not gesture_flag):
 			none_gesture = {'type': "No gesture", 'parameters':{'start':None} }
 			self.detected_gestures.update(none_gesture)
 		else:
+			self.detected_gestures['type'] = gesture_name
 			self.detected_gestures['parameters'].update(parameters)
 			self.gesture_data()
 
