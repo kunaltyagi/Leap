@@ -114,8 +114,9 @@ class LeapListener(Leap.Listener):
 			data.write("Gesture Type: %s\n" %(self.detected_gestures['type']))
 			gesture_parameters = self.detected_gestures['parameters']
 			if len(gesture_parameters) > 0:
-				for param in gesture_parameters.keys():
+				for param in sorted(gesture_parameters.keys()):
 					data.write("%s : %s\n" %(param, gesture_parameters[param]))
+			data.write("\n")
 		
 
 	def on_frame(self, controller):
@@ -218,7 +219,8 @@ class LeapListener(Leap.Listener):
 				forward_finger = extended_fingers[0]
 				point_from = forward_finger.stabilized_tip_position
 				point_to = forward_finger.direction.normalized
-				parameters = {'current frame': frame.id, 'from':point_from, 'to':point_to}
+				parameters['from'] = point_from
+				parameters['to'] = point_to
 				# Return the position on screen being pointed by the
 				# forward most finger
 			
