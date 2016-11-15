@@ -45,7 +45,7 @@ class ClearSpace(gestures):
 class Point(gestures):
 	"""
 		Point gesture is to be detected when the index finger is extended
-		and is at rest (other than noise). 
+		and is at rest (other than noise).
 	"""
 	point_from = None
 	point_to = None
@@ -67,6 +67,8 @@ class LeapListener(Leap.Listener):
 	bone_names = ['Metacarpal', 'Proximal', 'INtermediate', 'Distal']
 	state_names = ['STATE_INVALID', 'STATE_START', 'STATE_UPDATE', 'STATE_END']
 	lastFrameID = 0
+	# In on-frame, update self.gestures
+	detected_gestures = {'type':'No gesture', 'parameters':{'start':None}}
 
 	def on_init(self, controller):
 		"""
@@ -102,6 +104,19 @@ class LeapListener(Leap.Listener):
 		"""
 		print("Exited")
 
+	def update_gesture(self, gesture_type, parameters={}):
+		self.detected_gestures['type'] = gesture_type
+		if parameters != {}:
+			self.detected_getures['parameters'].update(parameters)
+	
+	def gesture_data(self):
+		with open('Gesture_Data.txt', 'a') as data:
+			data.write("Gesture Type: %s\n" %(self.detected_gestures['type']))
+			gesture_parameters = self.detected_gestures['parameters']
+			if len(gesture_parameters) > 0:
+				for param in gesture_parameters.keys():
+					data.write("%s : %s\n" %(param, gesture_parameters[param]))
+		
 
 	def on_frame(self, controller):
 		"""
@@ -118,9 +133,7 @@ class LeapListener(Leap.Listener):
 					#%(hand_type, hand.palm_normal, hand.palm_position))
 
 
-		# Make stabilizer a decorator. 
-
-				
+		# Make stabilizer a decorator
 		def HandStabilizer(controller, frame, weight=0.7, hand_count={}):
 			if( not frame.is_valid):
 				return hand_count
@@ -165,9 +178,10 @@ class LeapListener(Leap.Listener):
 		# Add additional gestures here as keys. Each gestures's parameters
 		# are stored in its respective value.
 		#gestures = {'clearSpace':[], 'point':[]}
-		gesture_detected = None
 
+		gesture_flag = False
 		hand_count = HandCount(controller)
+		parameters = {'Current Frame ID': frame.id}
 		print(hand_count)
 		if hand_count == 2:
 			left, right = frame.hands.leftmost, frame.hands.rightmost
@@ -175,7 +189,17 @@ class LeapListener(Leap.Listener):
 			rel_orient = left.palm_normal.x*right.palm_normal.x
 
 			if rel_orient < 0 and rel_x_velocity > 100:
-				gesture_detected = "Clear Space"
+				if( self.detected_gestures['type'] == "No gesture"):
+					parameters['start'] = frame.id
+					parameters['Left Normal'] = left.palm_normal
+					parameters['Left position'] = left.palm_position
+					parameters['Right position'] = right.palm_position
+					parameters['Right Normal'] = right.palm_normal
+					self.detected_gestures['type'] = "Clear Space"
+
+				#self.update_gesture("Clear Space", parameters)
+				gesture_flag = True
+
 				# Define parameters to characterise the gesture.
 				
 		elif hand_count == 1:
@@ -186,21 +210,33 @@ class LeapListener(Leap.Listener):
 			if finger_count == 1 and extended_fingers[0].type == 1:
 				#index_tip_vel = FingerTipVelocity(self, controller)
 
-				gesture_detected = "Point"
-				forward_finger = extended_fingers.frontmost
+				gesture_name = "Point"
+				forward_finger = extended_fingers[0]
 				point_from = forward_finger.stabilized_tip_position
 				point_to = forward_finger.direction.normalized
-				# Return the position on screen being pointed by the forward most finger
+				parameters = {'current frame': frame.id, 'from':point_from, 'to':point_to}
+				# Return the position on screen being pointed by the
+				# forward most finger
+				if self.detected_gestures['type'] != gesture_name:
+					parameters['start'] = frame.id	
+				gesture_flag = True
 
-		if gesture_detected == "Clear Space":
-			print("Frame: %d Current Gesture: %s" %(frame.id, gesture_detected))
-			# Send the relevant parameters across to openGL
-		elif gesture_detected == "Point":
-			print("Frame: %d Current Gesture: %s, Finger type: %s,"
-			%(frame.id, gesture_detected, self.finger_names[forward_finger.type]))
-			print("Finger-tip-position:", point_from.to_tuple())
-			print("Pointing to:", point_to.to_tuple()) 
+		print('Frame: %d' %(frame.id))
+		if( not gesture_flag):
+			none_gesture = {'type': "No gesture", 'parameters':{'start':None} }
+			self.detected_gestures.update(none_gesture)
+		else:
+			self.detected_gestures['parameters'].update(parameters)
+			self.gesture_data()
 
+#		if self.detected_gestures['type'] == "Clear Space":
+#			print("Frame: %d Current Gesture: %s" %(frame.id, gesture_detected))
+#			# Send the relevant parameters across to openGL
+#		elif self.detected_gestures['type'] == "Point":
+#			print("Frame: %d Current Gesture: %s, Finger type: %s,"
+#			%(frame.id, self.detected_gesture['type'], self.finger_names[forward_finger.type]))
+#			print("Finger-tip-position:", point_from.to_tuple())
+#			print("Pointing to:", point_to.to_tuple()) 
 
 
 def main():
