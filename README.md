@@ -6,6 +6,10 @@ Repo for codes for integrating gestures from Leap motion with Blender/OpenGL
 # Requirements
 * Python3
 * PyOpenGL
+* PyGame
+* numpy
+* numpy-quaternion
+* numa
 
 # Install
 * Installation instructions (assuming Ubuntu, 64 bit):
