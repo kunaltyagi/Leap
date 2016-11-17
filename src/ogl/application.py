@@ -7,31 +7,11 @@ Actual implementation of application
 
 from interface import GLInterface
 from world import World
-from sample_elements import Cylinder
+from sample_elements import Cylinder, Cube
 
 import pygame #pylint: disable=import-error
 from OpenGL.GL import *#pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
 from OpenGL.GLU import *#pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
-
-class Cube(object): #pylint: disable=too-few-public-methods
-    """
-    Draws a wireframe cube
-    """
-    def __init__(self):
-        self.vertices = ((1, -1, -1), (1, 1, -1), (-1, 1, -1), (-1, -1, -1),
-                         (1, -1, 1), (1, 1, 1), (-1, -1, 1), (-1, 1, 1))
-        self.edges = ((0, 1), (0, 3), (0, 4),
-                      (2, 1), (2, 3), (2, 7),
-                      (6, 3), (6, 4), (6, 7),
-                      (5, 1), (5, 4), (5, 7))
-
-    def __call__(self):
-        glBegin(GL_LINES)
-        for edge in self.edges:
-            for vertex in edge:
-                glVertex3fv(self.vertices[vertex])
-        glEnd()
-
 
 class Application(GLInterface):
     """
