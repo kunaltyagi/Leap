@@ -6,6 +6,8 @@ Actual implementation of application
 """
 
 from interface import GLInterface
+from world import World
+from sample_elements import Cylinder
 
 import pygame #pylint: disable=import-error
 from OpenGL.GL import *#pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
@@ -37,7 +39,8 @@ class Application(GLInterface):
     """
     def __init__(self):
         GLInterface.__init__(self)
-        self.quadric = gluNewQuadric()
+        self.world = World()
+        self.world.add_element(Cylinder())
         self.cube = Cube()
 
     def key_down(self, key):
@@ -63,7 +66,7 @@ class Application(GLInterface):
 
     def display_loop(self):
         GLInterface.display_loop(self)
-        gluCylinder(self.quadric, 4, 2, 5, 25, 1)
+        self.world.display()
 
 def main():
     """

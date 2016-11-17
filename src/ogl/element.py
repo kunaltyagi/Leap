@@ -5,9 +5,13 @@
 Make all transformations, handle creation, deletion requests, etc.
 """
 
+from OpenGL.GL import *#pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
+from OpenGL.GLU import *#pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
+
 class Element(object):
     def __init__(self):
-        pass
+        self.origin = [0, 0, 0]
+        self.pose = [0, 0, 0]
 
     def create(self):
         pass
@@ -18,10 +22,24 @@ class Element(object):
     def init(self):
         pass
 
+    def display(self):
+        glPushMatrix()
+        self.transform()
+        self.draw()
+        glPopMatrix()
+
     def draw(self):
         pass
 
+    def adjust(self, parameters=None):
+        if not parameters:
+            return
+        for param in parameters:
+            if hasattr(self, param):
+                setattr(self, param, parameters[param])
+
     def transform(self, pose=None):
+        glTranslatef(-self.origin[0], -self.origin[1], -self.origin[2])
         # rotate first, then translate
         if not pose:
             pose = self.pose
