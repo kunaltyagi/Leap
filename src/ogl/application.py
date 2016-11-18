@@ -22,6 +22,8 @@ class Application(GLInterface):
         self.world = World()
         self.world.add_element(Cylinder())
         self.cube = Cube()
+        self.del_camera = {'translate': [0, 0, 0],
+                           'rotate': [1, 0, 0, 0]}
 
     def key_down(self, key):
         # Move this out of key_down function

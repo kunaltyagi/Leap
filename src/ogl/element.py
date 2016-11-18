@@ -15,7 +15,7 @@ class Element(object):
     def __init__(self):
         self.origin = [0, 0, 0]
         self.pose = {'translate': [0, 0, 0],
-                     'rotate': np.quaternion(1, 0, 0, 0)}
+                     'rotate': [1, 0, 0, 0]} #np.quaternion(1, 0, 0, 0)}
         self.base_pose = self.pose.copy()
         self.param = dict()
 
