@@ -32,8 +32,8 @@ class Application(GLInterface):
         """
         if gesture is None:
             return
-        elif gesture.type == 'noop':
-            print('Gesture noop received')
+        elif gesture.type == 'no_gesture':
+            print('No gesture received')
             return
         elif gesture.type == 'clear_space':
             self.world.clear()
