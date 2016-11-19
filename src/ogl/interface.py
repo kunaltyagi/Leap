@@ -5,14 +5,15 @@
 Wrapper around PyOpenGL and PyGame
 """
 
-import pygame #pylint: disable=import-error
-import OpenGL
+# import OpenGL
 
-from OpenGL.GL import * #pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
-from OpenGL.GLU import * #pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
-#from OpenGL.arrays import vbo
+import pygame  # pylint: disable=import-error
+from OpenGL.GL import *  # pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
+from OpenGL.GLU import *  # pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
+# from OpenGL.arrays import vbo
 
-class GLInterface(object): #pylint: disable=too-many-instance-attributes
+
+class GLInterface(object):  # pylint: disable=too-many-instance-attributes
     """
     Creates a screen, and allows easy evaluation of events
     """
@@ -23,12 +24,13 @@ class GLInterface(object): #pylint: disable=too-many-instance-attributes
         self.up = [0, 0, 1]  # pylint: disable=invalid-name
         self.fov = 60
         self.near = 0.1
-        self.far = 100
+        self.far = 300
         self.bg_color = [0.1, 0.1, 0.5, 0.2]
-        self.keys = {} # 133 keys in PyGame
+        self.keys = {}  # 133 keys in PyGame
 
         pygame.init()
-        pygame.display.set_mode(self.display, pygame.DOUBLEBUF|pygame.OPENGL)
+        pygame.display.set_mode(self.display,
+                                pygame.DOUBLEBUF | pygame.OPENGL)
         pygame.display.set_caption("CAD Demo")
 
     def event_handler(self, event):
@@ -46,7 +48,8 @@ class GLInterface(object): #pylint: disable=too-many-instance-attributes
             pygame.MOUSEMOTION: lambda: self.mouse_button_down(event)
         }
         return handlers.get(event.type,
-                            lambda: self.unimplemented("Event {}".format(event.type)))
+                            lambda: self.unimplemented("Event {}".\
+                                    format(event.type)))
 
     def key_up(self, key):
         """
@@ -89,7 +92,7 @@ class GLInterface(object): #pylint: disable=too-many-instance-attributes
         It is called before drawing on the screen each time
         """
         glClearColor(*self.bg_color)
-        glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
 
     def init(self):
         """
@@ -102,7 +105,8 @@ class GLInterface(object): #pylint: disable=too-many-instance-attributes
 
         glMatrixMode(GL_PROJECTION)
         glLoadIdentity()
-        gluPerspective(self.fov, (self.display[0]/self.display[1]), self.near, self.far)
+        gluPerspective(self.fov, (self.display[0]/self.display[1]),
+                       self.near, self.far)
 
         glMatrixMode(GL_MODELVIEW)
         gluLookAt(*(self.eye + self.center + self.up))
@@ -113,13 +117,13 @@ class GLInterface(object): #pylint: disable=too-many-instance-attributes
         """
         self.init_loop()
 
-    def unimplemented(self, something):
+    def unimplemented(self, something):  # pylint: disable=no-self-use
         """
         Simple wrapper apund print for ease
         """
         print("[GL] {} is not handled as of now".format(something))
 
-    def stop_and_exit(self):
+    def stop_and_exit(self):  # pylint: disable=no-self-use
         """
         Quit the application properly
         """

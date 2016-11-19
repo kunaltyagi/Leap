@@ -9,9 +9,10 @@ from interface import GLInterface
 from world import World
 from sample_elements import Cylinder, Cube
 
-import pygame #pylint: disable=import-error
-from OpenGL.GL import *#pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
-from OpenGL.GLU import *#pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
+import pygame  # pylint: disable=import-error
+from OpenGL.GL import *  # pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
+from OpenGL.GLU import *  # pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
+
 
 class Application(GLInterface):
     """
@@ -25,7 +26,22 @@ class Application(GLInterface):
         self.del_camera = {'translate': [0, 0, 0],
                            'rotate': [1, 0, 0, 0]}
 
+    def leap_gesture(self, gesture):
+        """
+        Captures gestures from leap-motion and performs required functionality
+        """
+        if gesture is None:
+            return
+        elif gesture.type == 'noop':
+            print('Gesture noop received')
+            return
+        elif gesture.type == 'clear_space':
+            self.world.clear()
+
     def key_down(self, key):
+        """
+        Caputes key-down events and performs required functionality
+        """
         # Move this out of key_down function
         if key == pygame.K_UP:
             glRotatef(15, 0, 1, 0)
@@ -47,8 +63,12 @@ class Application(GLInterface):
         GLInterface.key_down(self, key)
 
     def display_loop(self):
+        """
+        called everytime OpenGL refreshes
+        """
         GLInterface.display_loop(self)
         self.world.display()
+
 
 def main():
     """
