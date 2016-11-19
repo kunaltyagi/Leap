@@ -28,6 +28,12 @@ class Element(object):
     def init(self):
         pass
 
+    def display(self):
+        glPushMatrix()
+        self.transform()
+        self.draw()
+        glPopMatrix()
+
     def draw(self):
         pass
 
