@@ -1,1 +1,1 @@
-pip install -U numpy numpy.quaternion numba pygame
+pip install -U numpy numpy-quaternion numba pygame

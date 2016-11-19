@@ -18,6 +18,7 @@ class Element(object):
     """
     def __init__(self):
         self.origin = [0, 0, 0]
+        assert np.quaternion(1, 0, 0, 0) == quaternion.one
         self.pose = {'translate': [0, 0, 0],
                      'rotate': [1, 0, 0, 0]}
                      # 'rotate': np.quaternion(1, 0, 0, 0)}
