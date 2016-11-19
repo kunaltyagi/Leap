@@ -17,22 +17,23 @@ import Leap  # pylint: disable=import-error, wrong-import-position
 from Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
 
 # Stabilizer can be made into a decorator
-def hand_stabilizer(frame, weight=0.7, count={}):
+def hand_stabilizer(frame, count, weight=0.7):
     """
     Updates the windowed average of number of visible hands.
     Args:
         frame: current frame
         weight: relative weight to the data in current frame
         count: object to be updated;
-                    currently the number of hands
+               currently the number of hands
     """
     if( not frame.is_valid):
         return count
     c = len(frame.hands)
-    if c in count.keys():
-        count[c] += weight + (1-weight)*count[c]
-    else:
-            count[c] = (1-weight)*count[c]
+
+    for c in count.keys():
+        count[c] = (1-weight)*count[c]
+        if c == len(frame.hands):
+            count[c] += weight + (1-weight)*count[c]
     return count
 
 def hand_count(controller, window=10):
@@ -43,29 +44,11 @@ def hand_count(controller, window=10):
         controller: controller ID to get sensed data
         window: size of the window
     """
-    no_of_hands = {0:0, 1:0, 2:0}
+    no_of_hands = {0:0, 1:0, 2:0, 3:0}
     for i in range(window):
         no_of_hands = hand_stabilizer(controller.frame(window-i),count=no_of_hands)
     comp = lambda x: no_of_hands[x]
     return max(no_of_hands, key=comp)
-
-def detect_gesture(self, frame, ):
-    """
-    Detects gestures from the frame data
-    """
-    # Add more gestures and corresponding rules
-    gesture_types = ['clear_space', 'point']
-
-    left, right = frame.hands.leftmost, frame.hands.rightmost
-    rel_x_velocity = right.palm_velocity.x - left.palm_velocity.x
-    rel_orient = left.palm_normal.x*right.palm_normal.x
-
-    if rel_orient < 0 and rel_x_velocity > 100:
-        return True
-    else:
-        return False
-
-
 
 class LeapListener(Leap.Listener):
     """
@@ -132,6 +115,16 @@ class LeapListener(Leap.Listener):
         gesture_name = ""
         count = hand_count(controller)
         details = {'frame_id': frame.id}
+        for gesture in frame.gestures():
+            if gesture.type is Leap.Gesture.TYPE_CIRCLE:
+                circle = Leap.CircleGesture(gesture)
+                flag = True
+                gesture_name = 'circle'
+                circle_finger = circle.pointable
+
+                details['center'] = circle.center
+                details['radius'] = circle.radius
+
         print(count)
         if count == 2:
             left, right = frame.hands.leftmost, frame.hands.rightmost
@@ -157,9 +150,9 @@ class LeapListener(Leap.Listener):
             finger_count = len(extended_fingers)
             if finger_count == 1 and extended_fingers[0].type == 1:
                 gesture_name = "point"
+                flag = True
                 if self.gesture.type != gesture_name:
                     details['start'] = frame.id
-                flag = True
 
                 forward_finger = extended_fingers[0]
                 details['from'] = forward_finger.stabilized_tip_position

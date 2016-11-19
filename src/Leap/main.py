@@ -4,7 +4,6 @@
 from leap.leap_start import Leap, LeapListener
 from ogl.application import Application
 
-
 class Gesture():
     """
     Identifies and stores gesture data
