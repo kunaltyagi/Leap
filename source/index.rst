@@ -6,18 +6,20 @@
 Welcome to Leap's documentation!
 ================================
 
+Leap is a bare-basic implementation of how future CAD interfaces
+would be like. It consists of
+
+- input from a 3D device (currently Leap Motion) which is converted to **Gestures**. Each gesture signifies an action to the application.
+- application which accepts the data in 3D unlike the 2D input from a mouse. The application here is a simple Cylinder being controlled in OpenGL
+
+
 Contents:
+---------
 
 .. toctree::
    :maxdepth: 2
 
-.. automodule:: src
-
-Stage in OpenGL
-===============
-
-.. automodule:: src.ogl
-    :members:
+   modules.rst
 
 
 Indices and tables
