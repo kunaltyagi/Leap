@@ -11,11 +11,13 @@ from element import Element
 from OpenGL.GL import *#pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
 from OpenGL.GLU import *#pylint: disable=unused-wildcard-import, redefined-builtin, wildcard-import
 
+
 class Cube(Element): #pylint: disable=too-few-public-methods
     """
     Draws a wireframe cube
     """
     def __init__(self):
+        Element.__init__(self)
         self.vertices = ((1, -1, -1), (1, 1, -1), (-1, 1, -1), (-1, -1, -1),
                          (1, -1, 1), (1, 1, 1), (-1, -1, 1), (-1, 1, 1))
         self.edges = ((0, 1), (0, 3), (0, 4),
@@ -24,6 +26,9 @@ class Cube(Element): #pylint: disable=too-few-public-methods
                       (5, 1), (5, 4), (5, 7))
 
     def __call__(self):
+        """
+        Draws the cube in wireframe
+        """
         glBegin(GL_LINES)
         for edge in self.edges:
             for vertex in edge:
@@ -32,6 +37,9 @@ class Cube(Element): #pylint: disable=too-few-public-methods
 
 
 class Cylinder(Element):
+    """
+    Draws a cone or a cone frustum or a cylinder
+    """
     def __init__(self, top_radius=3, bottom_radius=3, height=5):
         Element.__init__(self)
         # It would be better to share this quadric, but for now, wth
@@ -43,10 +51,16 @@ class Cylinder(Element):
         self.adjust()
 
     def adjust(self, parameters=None):
+        """
+        sets the parameters (if any) and the origin to be the center
+        """
         Element.adjust(self, parameters)
         self.origin = [0, 0, self.height/2]
 
     def draw(self):
+        """
+        Draws the cylinder
+        """
         gluCylinder(self.quadric, self.bottom_radius, self.top_radius,
                     self.height,
                     (self.top_radius + self.bottom_radius)*self.arc_len, 1)
