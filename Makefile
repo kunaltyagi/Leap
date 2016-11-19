@@ -54,6 +54,7 @@ help:
 .PHONY: clean
 clean:
 	rm -rf $(BUILDDIR)/*
+	find . -name '*.pyc' -type f -delete
 
 .PHONY: html
 html:
