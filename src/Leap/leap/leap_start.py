@@ -10,32 +10,30 @@ import os
 import sys
 
 SRC_DIR = os.path.dirname(inspect.getfile(inspect.currentframe()))
-LIB_DIR = os.path.abspath(os.path.join(SRC_DIR, '../../lib'))
+LIB_DIR = os.path.abspath(os.path.join(SRC_DIR, '../../../lib'))
 sys.path.insert(0, LIB_DIR)
 
 import Leap  # pylint: disable=import-error, wrong-import-position
 from Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
 
-
-
 # Stabilizer can be made into a decorator
-def hand_stabilizer(frame, weight=0.7, hand_count={}):
+def hand_stabilizer(frame, weight=0.7, count={}):
     """
     Updates the windowed average of number of visible hands.
     Args:
         frame: current frame
         weight: relative weight to the data in current frame
-        hand_count: object to be updated;
+        count: object to be updated;
                     currently the number of hands
     """
     if( not frame.is_valid):
-        return hand_count
-    count = len(frame.hands)
-    if count in hand_count.keys():
-        hand_count[count] += weight + (1-weight)*hand_count[count]
+        return count
+    c = len(frame.hands)
+    if c in count.keys():
+        count[c] += weight + (1-weight)*count[c]
     else:
-            hand_count[count] = weight
-    return hand_count
+            count[c] = (1-weight)*count[c]
+    return count
 
 def hand_count(controller, window=10):
     """
@@ -47,7 +45,7 @@ def hand_count(controller, window=10):
     """
     no_of_hands = {0:0, 1:0, 2:0}
     for i in range(window):
-        no_of_hands = hand_stabilizer(controller.frame(window-i),hand_count=no_of_hands)
+        no_of_hands = hand_stabilizer(controller.frame(window-i),count=no_of_hands)
     comp = lambda x: no_of_hands[x]
     return max(no_of_hands, key=comp)
 
@@ -77,7 +75,7 @@ class LeapListener(Leap.Listener):
     bone_names = ['Metacarpal', 'Proximal', 'INtermediate', 'Distal']
 
     # Add additional gestures here as keys. Each gestures's parameters
-    def add_callback(self, gesture):
+    def add_gesture(self, gesture):
         self.gesture = gesture
 
     def on_init(self, controller):
@@ -132,10 +130,10 @@ class LeapListener(Leap.Listener):
 
         flag = False
         gesture_name = ""
-        hand_count = hand_count(controller)
+        count = hand_count(controller)
         details = {'frame_id': frame.id}
-        print(hand_count)
-        if hand_count == 2:
+        print(count)
+        if count == 2:
             left, right = frame.hands.leftmost, frame.hands.rightmost
             rel_x_velocity = right.palm_velocity.x - left.palm_velocity.x
             rel_orient = left.palm_normal.x*right.palm_normal.x
@@ -152,7 +150,7 @@ class LeapListener(Leap.Listener):
 
             # Define parameters to characterise the gesture.
 
-        elif hand_count == 1:
+        elif count == 1:
             # Check for the following gestures: point, #to be added soon
             extended_fingers = frame.fingers.extended()
 
@@ -175,4 +173,5 @@ class LeapListener(Leap.Listener):
             self.gesture.gesture_data()
             print("Gesture name: %s" %(gesture_name))
         else:
-            self.gesture = Gesture()
+            self.gesture.type = 'no_gesture'
+            self.gesture.parameters = {}

@@ -10,15 +10,15 @@ class Gesture():
     Identifies and stores gesture data
     """
 
-    def __init__(self):
-        self.type = 'no_gesture'
-        self.parameters = {}
+    def __init__(self, name='no_gesture', details={}):
+        self.type = name
+        self.parameters = details
 
-    def update_gesture(self, gesture_type, details=None):
+    def update_gesture(self, gesture_name, details=None):
         """
         Updates the gesture parameters
         """
-        self.type = gesture_type
+        self.type = gesture_name
         if details is not None:
             self.parameters.update(details)
 
@@ -29,13 +29,7 @@ class Gesture():
         """
         Sends details of gesture as a dictionary
         """
-        with open('gesture_data.txt', 'a') as data:
-            data.write("Gesture Type: %s\n" %(self.type))
-            details = self.parameters
-            if len(details) > 0:
-                for param in sorted(details.keys()):
-                    data.write("%s : %s\n" %(param, details[param]))
-            data.write("\n")
+        self.app.leap_gesture(self)
 
 
 def main():
@@ -48,7 +42,7 @@ def main():
     gestures.add_application(gl_app)
 
     listener = LeapListener()
-    listener.add_callback(gestures)
+    listener.add_gesture(gestures)
 
     controller = Leap.Controller()
     controller.add_listener(listener)
