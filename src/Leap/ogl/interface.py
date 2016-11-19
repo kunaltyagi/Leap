@@ -37,8 +37,9 @@ class GLInterface(object):  # pylint: disable=too-many-instance-attributes
     def event_handler(self, event):
         """
         A big switch case function for input event
-        Args:
-            event: pygame.Event, used to check for events
+
+        :param event: pygame.Event, used to check for events
+        :returns: handler for event.type
         """
         handlers = {
             pygame.QUIT: self.stop_and_exit,
@@ -54,15 +55,13 @@ class GLInterface(object):  # pylint: disable=too-many-instance-attributes
 
     def key_up(self, key):
         """
-        Args:
-            key: key unpressed
+        :param key: key unpressed
         """
         self.keys[key] = False
 
     def key_down(self, key):
         """
-        Args:
-            key: key pressed
+        :param key: key pressed
         """
         if key == pygame.K_ESCAPE:
             self.stop_and_exit()
@@ -70,15 +69,13 @@ class GLInterface(object):  # pylint: disable=too-many-instance-attributes
 
     def mouse_button_up(self, event):
         """
-        Args:
-            event: directly passes from event-handler
+        :param event: directly passes from event-handler
         """
         self.unimplemented("Mouse click up {}").format(event)
 
     def mouse_button_down(self, event):
         """
-        Args:
-            event: directly passes from event-handler
+        :param event: directly passes from event-handler
         """
         self.unimplemented("Mouse click down {}".format(event))
 
@@ -120,7 +117,8 @@ class GLInterface(object):  # pylint: disable=too-many-instance-attributes
 
     def unimplemented(self, something):  # pylint: disable=no-self-use
         """
-        Simple wrapper apund print for ease
+        Simple wrapper around print for ease
+        :param something: any printable object
         """
         print("[GL] {} is not handled as of now".format(something))
 
