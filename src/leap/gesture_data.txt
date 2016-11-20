@@ -1,1770 +1,2154 @@
-Gesture Type: Point
-Current Frame ID : 8777
-from : (-58.1002, 178.849, -86.5313)
-start : 8777
-to : (-0.384526, 0.249638, -0.888719)
-
-Gesture Type: Point
-Current Frame ID : 8778
-from : (-56.0117, 179.448, -86.6692)
-start : 8777
-to : (-0.377534, 0.305083, -0.874296)
-
-Gesture Type: Point
-Current Frame ID : 8779
-from : (-53.0579, 180.752, -86.3575)
-start : 8777
-to : (-0.370149, 0.33997, -0.864529)
-
-Gesture Type: Point
-Current Frame ID : 8780
-from : (-49.4185, 182.447, -85.8618)
-start : 8777
-to : (-0.355405, 0.354557, -0.864856)
-
-Gesture Type: Point
-Current Frame ID : 8781
-from : (-45.4335, 184.364, -85.3195)
-start : 8777
-to : (-0.346078, 0.363048, -0.865116)
-
-Gesture Type: Point
-Current Frame ID : 8782
-from : (-41.3254, 186.512, -84.7662)
-start : 8777
-to : (-0.337914, 0.373286, -0.863986)
-
-Gesture Type: Point
-Current Frame ID : 8783
-from : (-37.4271, 188.71, -84.3488)
-start : 8777
-to : (-0.325449, 0.38381, -0.86416)
-
-Gesture Type: Point
-Current Frame ID : 8784
-from : (-33.6137, 190.965, -84.1841)
-start : 8777
-to : (-0.312587, 0.392424, -0.865039)
-
-Gesture Type: Point
-Current Frame ID : 8785
-from : (-30.139, 193.001, -84.3197)
-start : 8777
-to : (-0.30046, 0.399698, -0.866005)
-
-Gesture Type: Point
-Current Frame ID : 8786
-from : (-27.0543, 194.863, -84.6796)
-start : 8777
-to : (-0.291458, 0.405222, -0.866515)
-
-Gesture Type: Point
-Current Frame ID : 8787
-from : (-24.3307, 196.593, -85.4423)
-start : 8777
-to : (-0.276981, 0.412557, -0.867801)
-
-Gesture Type: Point
-Current Frame ID : 8788
-from : (-22.2648, 198.237, -86.24)
-start : 8777
-to : (-0.266806, 0.422185, -0.866357)
-
-Gesture Type: Point
-Current Frame ID : 8789
-from : (-20.5285, 199.602, -87.0657)
-start : 8777
-to : (-0.258108, 0.428829, -0.865729)
-
-Gesture Type: Point
-Current Frame ID : 8790
-from : (-19.0559, 200.746, -88.0767)
-start : 8777
-to : (-0.248289, 0.433538, -0.866255)
-
-Gesture Type: Point
-Current Frame ID : 8791
-from : (-17.6816, 201.541, -89.265)
-start : 8777
-to : (-0.237113, 0.435464, -0.868417)
-
-Gesture Type: Point
-Current Frame ID : 8792
-from : (-16.5227, 202.181, -90.4231)
-start : 8777
-to : (-0.226808, 0.437387, -0.870202)
-
-Gesture Type: Point
-Current Frame ID : 8793
-from : (-15.3951, 202.611, -91.8694)
-start : 8777
-to : (-0.212761, 0.436322, -0.874275)
-
-Gesture Type: Point
-Current Frame ID : 8794
-from : (-14.6068, 203.269, -93.428)
-start : 8777
-to : (-0.19116, 0.444071, -0.875362)
-
-Gesture Type: Point
-Current Frame ID : 8795
-from : (-13.9177, 204.136, -94.7812)
-start : 8777
-to : (-0.170061, 0.456041, -0.873559)
-
-Gesture Type: Point
-Current Frame ID : 8796
-from : (-13.398, 204.868, -95.8297)
-start : 8777
-to : (-0.158398, 0.462313, -0.872454)
-
-Gesture Type: Point
-Current Frame ID : 8797
-from : (-12.9916, 205.532, -96.8011)
-start : 8777
-to : (-0.148096, 0.467126, -0.8717)
-
-Gesture Type: Point
-Current Frame ID : 8798
-from : (-12.6951, 206.081, -97.5797)
-start : 8777
-to : (-0.141544, 0.470417, -0.871018)
-
-Gesture Type: Point
-Current Frame ID : 8799
-from : (-12.4457, 206.586, -98.294)
-start : 8777
-to : (-0.134851, 0.472924, -0.870723)
-
-Gesture Type: Point
-Current Frame ID : 8800
-from : (-12.2253, 207.077, -98.9243)
-start : 8777
-to : (-0.129231, 0.47664, -0.869548)
-
-Gesture Type: Point
-Current Frame ID : 8801
-from : (-12.0548, 207.627, -99.522)
-start : 8777
-to : (-0.124222, 0.482558, -0.86701)
-
-Gesture Type: Point
-Current Frame ID : 8802
-from : (-11.8952, 208.208, -100.097)
-start : 8777
-to : (-0.118811, 0.487842, -0.864809)
-
-Gesture Type: Point
-Current Frame ID : 8803
-from : (-11.7206, 208.81, -100.658)
-start : 8777
-to : (-0.113379, 0.491904, -0.863236)
-
-Gesture Type: Point
-Current Frame ID : 8804
-from : (-11.5563, 209.41, -101.193)
-start : 8777
-to : (-0.109538, 0.495452, -0.861701)
-
-Gesture Type: Point
-Current Frame ID : 8805
-from : (-11.4552, 210.02, -101.713)
-start : 8777
-to : (-0.108808, 0.498899, -0.859802)
-
-Gesture Type: Point
-Current Frame ID : 8806
-from : (-11.4215, 210.619, -102.2)
-start : 8777
-to : (-0.109511, 0.502019, -0.857895)
-
-Gesture Type: Point
-Current Frame ID : 8807
-from : (-11.4215, 210.619, -102.2)
-start : 8777
-to : (-0.109125, 0.504811, -0.856305)
-
-Gesture Type: Point
-Current Frame ID : 8808
-from : (-11.4215, 210.619, -102.2)
-start : 8777
-to : (-0.106679, 0.501874, -0.858337)
-
-Gesture Type: Point
-Current Frame ID : 8809
-from : (-11.4215, 210.619, -102.2)
-start : 8777
-to : (-0.105021, 0.501287, -0.858884)
-
-Gesture Type: Point
-Current Frame ID : 8810
-from : (-11.4215, 210.619, -102.2)
-start : 8777
-to : (-0.103852, 0.500917, -0.859242)
-
-Gesture Type: Point
-Current Frame ID : 8811
-from : (-11.4215, 210.619, -102.2)
-start : 8777
-to : (-0.102905, 0.500399, -0.859658)
-
-Gesture Type: Point
-Current Frame ID : 8812
-from : (-11.4215, 210.619, -102.2)
-start : 8777
-to : (-0.100007, 0.501235, -0.859513)
-
-Gesture Type: Point
-Current Frame ID : 8813
-from : (-11.4215, 210.619, -102.2)
-start : 8777
-to : (-0.0980923, 0.501791, -0.859409)
-
-Gesture Type: Point
-Current Frame ID : 8814
-from : (-11.4247, 210.635, -102.221)
-start : 8777
-to : (-0.0981129, 0.501804, -0.859399)
-
-Gesture Type: Point
-Current Frame ID : 8815
-from : (-11.4493, 210.717, -102.333)
-start : 8777
-to : (-0.101014, 0.501585, -0.859191)
-
-Gesture Type: Point
-Current Frame ID : 8816
-from : (-11.4893, 210.83, -102.495)
-start : 8777
-to : (-0.103453, 0.500456, -0.859559)
-
-Gesture Type: Point
-Current Frame ID : 8817
-from : (-11.5398, 210.955, -102.681)
-start : 8777
-to : (-0.105472, 0.499921, -0.859625)
-
-Gesture Type: Point
-Current Frame ID : 8818
-from : (-11.6042, 211.091, -102.896)
-start : 8777
-to : (-0.107625, 0.498568, -0.860143)
-
-Gesture Type: Point
-Current Frame ID : 8819
-from : (-11.6845, 211.238, -103.14)
-start : 8777
-to : (-0.110121, 0.497696, -0.860332)
-
-Gesture Type: Point
-Current Frame ID : 8820
-from : (-11.7687, 211.378, -103.383)
-start : 8777
-to : (-0.111767, 0.496697, -0.860698)
-
-Gesture Type: Point
-Current Frame ID : 8821
-from : (-11.8562, 211.506, -103.621)
-start : 8777
-to : (-0.113343, 0.49538, -0.861251)
-
-Gesture Type: Point
-Current Frame ID : 8822
-from : (-11.9596, 211.631, -103.873)
-start : 8777
-to : (-0.116636, 0.493788, -0.861725)
-
-Gesture Type: Point
-Current Frame ID : 8823
-from : (-12.0834, 211.762, -104.152)
-start : 8777
-to : (-0.11903, 0.492636, -0.862057)
-
-Gesture Type: Point
-Current Frame ID : 8824
-from : (-12.2227, 211.891, -104.462)
-start : 8777
-to : (-0.120188, 0.490318, -0.863217)
-
-Gesture Type: Point
-Current Frame ID : 8825
-from : (-12.3677, 212.007, -104.777)
-start : 8777
-to : (-0.121499, 0.487863, -0.864423)
-
-Gesture Type: Point
-Current Frame ID : 8826
-from : (-12.5091, 212.118, -105.092)
-start : 8777
-to : (-0.120478, 0.487507, -0.864767)
-
-Gesture Type: Point
-Current Frame ID : 8827
-from : (-12.6273, 212.209, -105.376)
-start : 8777
-to : (-0.117124, 0.486674, -0.865696)
-
-Gesture Type: Point
-Current Frame ID : 8828
-from : (-12.7301, 212.278, -105.627)
-start : 8777
-to : (-0.116619, 0.485139, -0.866626)
-
-Gesture Type: Point
-Current Frame ID : 8829
-from : (-12.817, 212.334, -105.848)
-start : 8777
-to : (-0.114976, 0.484304, -0.867312)
-
-Gesture Type: Point
-Current Frame ID : 8830
-from : (-12.8864, 212.376, -106.028)
-start : 8777
-to : (-0.113952, 0.484095, -0.867564)
-
-Gesture Type: Point
-Current Frame ID : 8831
-from : (-12.9436, 212.41, -106.176)
-start : 8777
-to : (-0.113441, 0.484221, -0.867561)
-
-Gesture Type: Point
-Current Frame ID : 8832
-from : (-12.9903, 212.437, -106.298)
-start : 8777
-to : (-0.112697, 0.48424, -0.867647)
-
-Gesture Type: Point
-Current Frame ID : 8833
-from : (-13.0268, 212.458, -106.394)
-start : 8777
-to : (-0.112056, 0.484314, -0.867688)
-
-Gesture Type: Point
-Current Frame ID : 8834
-from : (-13.0567, 212.476, -106.473)
-start : 8777
-to : (-0.111625, 0.48458, -0.867596)
-
-Gesture Type: Point
-Current Frame ID : 8835
-from : (-13.0795, 212.489, -106.534)
-start : 8777
-to : (-0.111131, 0.48495, -0.867452)
-
-Gesture Type: Point
-Current Frame ID : 8836
-from : (-13.096, 212.499, -106.578)
-start : 8777
-to : (-0.1105, 0.485443, -0.867257)
-
-Gesture Type: Point
-Current Frame ID : 8837
-from : (-13.1075, 212.506, -106.61)
-start : 8777
-to : (-0.107655, 0.486159, -0.867214)
-
-Gesture Type: Point
-Current Frame ID : 8838
-from : (-13.1169, 212.512, -106.637)
-start : 8777
-to : (-0.105858, 0.487476, -0.866696)
-
-Gesture Type: Point
-Current Frame ID : 8839
-from : (-13.1258, 212.519, -106.664)
-start : 8777
-to : (-0.103793, 0.488779, -0.866212)
-
-Gesture Type: Point
-Current Frame ID : 8840
-from : (-13.1349, 212.525, -106.692)
-start : 8777
-to : (-0.101863, 0.489687, -0.865928)
-
-Gesture Type: Point
-Current Frame ID : 8841
-from : (-13.1501, 212.538, -106.739)
-start : 8777
-to : (-0.0994071, 0.492811, -0.864439)
-
-Gesture Type: Point
-Current Frame ID : 8842
-from : (-13.1742, 212.56, -106.818)
-start : 8777
-to : (-0.0966633, 0.495395, -0.863273)
-
-Gesture Type: Point
-Current Frame ID : 8843
-from : (-13.2098, 212.596, -106.939)
-start : 8777
-to : (-0.0944875, 0.497625, -0.86223)
-
-Gesture Type: Point
-Current Frame ID : 8844
-from : (-13.2575, 212.647, -107.102)
-start : 8777
-to : (-0.0929719, 0.499376, -0.861383)
-
-Gesture Type: Point
-Current Frame ID : 8845
-from : (-13.3193, 212.718, -107.318)
-start : 8777
-to : (-0.0916724, 0.500866, -0.860657)
-
-Gesture Type: Point
-Current Frame ID : 8846
-from : (-13.3946, 212.81, -107.592)
-start : 8777
-to : (-0.0897202, 0.502082, -0.860154)
-
-Gesture Type: Point
-Current Frame ID : 8847
-from : (-13.4806, 212.924, -107.909)
-start : 8777
-to : (-0.0883291, 0.503916, -0.859224)
-
-Gesture Type: Point
-Current Frame ID : 8848
-from : (-13.5737, 213.056, -108.264)
-start : 8777
-to : (-0.0867399, 0.504999, -0.858751)
-
-Gesture Type: Point
-Current Frame ID : 8849
-from : (-13.6738, 213.204, -108.649)
-start : 8777
-to : (-0.0856654, 0.506085, -0.858218)
-
-Gesture Type: Point
-Current Frame ID : 8850
-from : (-13.5902, 213.428, -109.35)
-start : 8777
-to : (-0.0492214, 0.499118, -0.865135)
-
-Gesture Type: Point
-Current Frame ID : 8851
-from : (-12.8442, 213.875, -110.994)
-start : 8777
-to : (-0.0128677, 0.493121, -0.869865)
-
-Gesture Type: Point
-Current Frame ID : 8852
-from : (-10.7054, 214.557, -113.79)
-start : 8777
-to : (0.018938, 0.489727, -0.87167)
-
-Gesture Type: Point
-Current Frame ID : 8853
-from : (-8.56314, 215.428, -116.493)
-start : 8777
-to : (0.0216265, 0.493693, -0.869367)
-
-Gesture Type: Point
-Current Frame ID : 8854
-from : (-5.73077, 217.735, -119.985)
-start : 8777
-to : (0.021535, 0.501795, -0.864718)
-
-Gesture Type: Point
-Current Frame ID : 8855
-from : (-5.45985, 218.11, -120.312)
-start : 8777
-to : (0.0214763, 0.503597, -0.863672)
-
-Gesture Type: Point
-Current Frame ID : 8856
-from : (-5.34759, 218.465, -120.428)
-start : 8777
-to : (0.021756, 0.505649, -0.862465)
-
-Gesture Type: Point
-Current Frame ID : 8857
-from : (-5.32137, 218.758, -120.439)
-start : 8777
-to : (0.0220044, 0.507151, -0.861576)
-
-Gesture Type: Point
-Current Frame ID : 8858
-from : (-5.18684, 218.963, -120.462)
-start : 8777
-to : (0.0248647, 0.506953, -0.861615)
-
-Gesture Type: Point
-Current Frame ID : 8859
-from : (-3.5504, 218.917, -120.762)
-start : 8777
-to : (0.0547293, 0.499823, -0.864397)
-
-Gesture Type: Point
-Current Frame ID : 8860
-from : (-2.60726, 218.994, -120.873)
-start : 8777
-to : (0.0549006, 0.501856, -0.863207)
-
-Gesture Type: Point
-Current Frame ID : 8861
-from : (-2.3434, 219.196, -120.772)
-start : 8777
-to : (0.0506705, 0.505121, -0.86156)
-
-Gesture Type: Point
-Current Frame ID : 8862
-from : (-2.4097, 219.425, -120.584)
-start : 8777
-to : (0.0472283, 0.507779, -0.860192)
-
-Gesture Type: Point
-Current Frame ID : 8863
-from : (-2.6115, 219.636, -120.379)
-start : 8777
-to : (0.0439934, 0.510244, -0.858904)
-
-Gesture Type: Point
-Current Frame ID : 8864
-from : (-2.86171, 219.828, -120.17)
-start : 8777
-to : (0.0408968, 0.512513, -0.857705)
-
-Gesture Type: Point
-Current Frame ID : 8865
-from : (-3.13979, 220.013, -119.958)
-start : 8777
-to : (0.0378593, 0.514686, -0.856542)
-
-Gesture Type: Point
-Current Frame ID : 8866
-from : (-3.41788, 220.187, -119.753)
-start : 8777
-to : (0.0353332, 0.516474, -0.855573)
-
-Gesture Type: Point
-Current Frame ID : 8867
-from : (-3.68167, 220.346, -119.566)
-start : 8777
-to : (0.0332651, 0.517853, -0.854823)
-
-Gesture Type: Point
-Current Frame ID : 8868
-from : (-3.928, 220.488, -119.397)
-start : 8777
-to : (0.0314621, 0.518956, -0.854222)
-
-Gesture Type: Point
-Current Frame ID : 8869
-from : (-4.1566, 220.618, -119.243)
-start : 8777
-to : (0.0300067, 0.51989, -0.853706)
-
-Gesture Type: Point
-Current Frame ID : 8870
-from : (-4.36606, 220.735, -119.107)
-start : 8777
-to : (0.0288769, 0.520504, -0.853371)
-
-Gesture Type: Point
-Current Frame ID : 8871
-from : (-4.5577, 220.839, -118.989)
-start : 8777
-to : (0.0278454, 0.520925, -0.853148)
-
-Gesture Type: Point
-Current Frame ID : 8872
-from : (-4.73064, 220.932, -118.887)
-start : 8777
-to : (0.0270307, 0.521191, -0.853012)
-
-Gesture Type: Point
-Current Frame ID : 8873
-from : (-4.89433, 221.016, -118.8)
-start : 8777
-to : (0.0262151, 0.521197, -0.853033)
-
-Gesture Type: Point
-Current Frame ID : 8874
-from : (-5.0388, 221.095, -118.728)
-start : 8777
-to : (0.025741, 0.521183, -0.853057)
-
-Gesture Type: Point
-Current Frame ID : 8875
-from : (-5.1771, 221.173, -118.666)
-start : 8777
-to : (0.0252556, 0.521129, -0.853104)
-
-Gesture Type: Point
-Current Frame ID : 8876
-from : (-5.3014, 221.245, -118.616)
-start : 8777
-to : (0.0248307, 0.521055, -0.853162)
-
-Gesture Type: Point
-Current Frame ID : 8877
-from : (-5.42215, 221.316, -118.574)
-start : 8777
-to : (0.0243981, 0.520958, -0.853233)
-
-Gesture Type: Point
-Current Frame ID : 8878
-from : (-5.53776, 221.385, -118.542)
-start : 8777
-to : (0.0239773, 0.520793, -0.853346)
-
-Gesture Type: Point
-Current Frame ID : 8879
-from : (-5.65037, 221.449, -118.52)
-start : 8777
-to : (0.0234434, 0.520546, -0.853512)
-
-Gesture Type: Point
-Current Frame ID : 8880
-from : (-5.76024, 221.51, -118.507)
-start : 8777
-to : (0.0229133, 0.520322, -0.853663)
-
-Gesture Type: Point
-Current Frame ID : 8881
-from : (-5.86381, 221.567, -118.502)
-start : 8777
-to : (0.0225256, 0.520119, -0.853797)
-
-Gesture Type: Point
-Current Frame ID : 8882
-from : (-5.9557, 221.618, -118.502)
-start : 8777
-to : (0.0222219, 0.519971, -0.853895)
-
-Gesture Type: Point
-Current Frame ID : 8883
-from : (-6.05012, 221.668, -118.51)
-start : 8777
-to : (0.021676, 0.519757, -0.854039)
-
-Gesture Type: Point
-Current Frame ID : 8884
-from : (-6.13471, 221.716, -118.52)
-start : 8777
-to : (0.0213848, 0.519706, -0.854078)
-
-Gesture Type: Point
-Current Frame ID : 8885
-from : (-6.22568, 221.76, -118.544)
-start : 8777
-to : (0.0205064, 0.518955, -0.854556)
-
-Gesture Type: Point
-Current Frame ID : 8886
-from : (-6.33101, 221.801, -118.58)
-start : 8777
-to : (0.0191599, 0.517983, -0.855176)
-
-Gesture Type: Point
-Current Frame ID : 8887
-from : (-6.44306, 221.84, -118.623)
-start : 8777
-to : (0.0179562, 0.517259, -0.855641)
-
-Gesture Type: Point
-Current Frame ID : 8888
-from : (-6.55544, 221.882, -118.661)
-start : 8777
-to : (0.017264, 0.517007, -0.855807)
-
-Gesture Type: Point
-Current Frame ID : 8889
-from : (-6.66645, 221.929, -118.696)
-start : 8777
-to : (0.016875, 0.516978, -0.855833)
-
-Gesture Type: Point
-Current Frame ID : 8890
-from : (-6.77535, 221.981, -118.725)
-start : 8777
-to : (0.0165112, 0.517189, -0.855712)
-
-Gesture Type: Point
-Current Frame ID : 8891
-from : (-6.88654, 222.042, -118.746)
-start : 8777
-to : (0.016226, 0.51767, -0.855427)
-
-Gesture Type: Point
-Current Frame ID : 8892
-from : (-7.00675, 222.114, -118.76)
-start : 8777
-to : (0.0158101, 0.518287, -0.855061)
-
-Gesture Type: Point
-Current Frame ID : 8893
-from : (-7.12842, 222.191, -118.77)
-start : 8777
-to : (0.0156561, 0.518535, -0.854913)
-
-Gesture Type: Point
-Current Frame ID : 8894
-from : (-7.25174, 222.274, -118.773)
-start : 8777
-to : (0.0154271, 0.51896, -0.854659)
-
-Gesture Type: Point
-Current Frame ID : 8895
-from : (-7.38578, 222.363, -118.772)
-start : 8777
-to : (0.0146282, 0.519286, -0.854475)
-
-Gesture Type: Point
-Current Frame ID : 8896
-from : (-7.5433, 222.463, -118.765)
-start : 8777
-to : (0.0131682, 0.519724, -0.854233)
-
-Gesture Type: Point
-Current Frame ID : 8897
-from : (-7.70343, 222.568, -118.75)
-start : 8777
-to : (0.0120032, 0.520494, -0.853781)
-
-Gesture Type: Point
-Current Frame ID : 8898
-from : (-7.88074, 222.683, -118.727)
-start : 8777
-to : (0.0106887, 0.52124, -0.853343)
-
-Gesture Type: Point
-Current Frame ID : 8899
-from : (-8.06623, 222.803, -118.699)
-start : 8777
-to : (0.00952395, 0.521818, -0.853004)
-
-Gesture Type: Point
-Current Frame ID : 8900
-from : (-8.25049, 222.927, -118.666)
-start : 8777
-to : (0.00869873, 0.522533, -0.852575)
-
-Gesture Type: Point
-Current Frame ID : 8901
-from : (-8.43641, 223.055, -118.629)
-start : 8777
-to : (0.00804978, 0.523114, -0.852225)
-
-Gesture Type: Point
-Current Frame ID : 8902
-from : (-8.61239, 223.177, -118.594)
-start : 8777
-to : (0.00756724, 0.523359, -0.852079)
-
-Gesture Type: Point
-Current Frame ID : 8903
-from : (-8.78137, 223.297, -118.559)
-start : 8777
-to : (0.00719022, 0.523609, -0.851929)
-
-Gesture Type: Point
-Current Frame ID : 8904
-from : (-8.94587, 223.422, -118.518)
-start : 8777
-to : (0.00674459, 0.524111, -0.851623)
-
-Gesture Type: Point
-Current Frame ID : 8905
-from : (-9.10851, 223.567, -118.456)
-start : 8777
-to : (0.00527313, 0.526199, -0.850345)
-
-Gesture Type: Point
-Current Frame ID : 8906
-from : (-9.26974, 223.715, -118.395)
-start : 8777
-to : (0.0037431, 0.526337, -0.850268)
-
-Gesture Type: Point
-Current Frame ID : 8907
-from : (-9.43922, 223.878, -118.325)
-start : 8777
-to : (0.00195435, 0.527185, -0.849748)
-
-Gesture Type: Point
-Current Frame ID : 8908
-from : (-9.65585, 224.089, -118.235)
-start : 8777
-to : (-0.00291862, 0.530269, -0.847825)
-
-Gesture Type: Point
-Current Frame ID : 8909
-from : (-9.9556, 224.365, -118.119)
-start : 8777
-to : (-0.0085642, 0.532516, -0.846377)
-
-Gesture Type: Point
-Current Frame ID : 8910
-from : (-10.5114, 224.678, -117.906)
-start : 8777
-to : (-0.0270223, 0.540523, -0.840895)
-
-Gesture Type: Point
-Current Frame ID : 8911
-from : (-11.5003, 225.059, -117.451)
-start : 8777
-to : (-0.047443, 0.550264, -0.833642)
-
-Gesture Type: Point
-Current Frame ID : 8912
-from : (-12.7204, 225.566, -116.799)
-start : 8777
-to : (-0.0589767, 0.558234, -0.827585)
-
-Gesture Type: Point
-Current Frame ID : 8913
-from : (-13.9118, 226.083, -116.111)
-start : 8777
-to : (-0.0656959, 0.562953, -0.823873)
-
-Gesture Type: Point
-Current Frame ID : 8914
-from : (-14.9239, 226.581, -115.432)
-start : 8777
-to : (-0.0697944, 0.566618, -0.82102)
-
-Gesture Type: Point
-Current Frame ID : 8915
-from : (-15.8197, 227.227, -114.487)
-start : 8777
-to : (-0.0806639, 0.578153, -0.811931)
-
-Gesture Type: Point
-Current Frame ID : 8916
-from : (-16.5623, 227.932, -113.399)
-start : 8777
-to : (-0.0910328, 0.588299, -0.803503)
-
-Gesture Type: Point
-Current Frame ID : 8917
-from : (-17.2438, 229.362, -111.664)
-start : 8777
-to : (-0.102266, 0.624696, -0.774142)
-
-Gesture Type: Point
-Current Frame ID : 8918
-from : (-18.0932, 231.738, -108.899)
-start : 8777
-to : (-0.119757, 0.665319, -0.736891)
-
-Gesture Type: Point
-Current Frame ID : 8919
-from : (-18.9512, 234.758, -105.151)
-start : 8777
-to : (-0.135932, 0.700404, -0.700683)
-
-Gesture Type: Point
-Current Frame ID : 8920
-from : (-19.1572, 237.884, -101.152)
-start : 8777
-to : (-0.130692, 0.720053, -0.681501)
-
-Gesture Type: Point
-Current Frame ID : 8921
-from : (-18.8587, 240.845, -97.241)
-start : 8777
-to : (-0.124103, 0.739551, -0.66156)
-
-Gesture Type: Point
-Current Frame ID : 8922
-from : (-18.132, 243.732, -93.2269)
-start : 8777
-to : (-0.115801, 0.756979, -0.643096)
-
-Gesture Type: Point
-Current Frame ID : 8923
-from : (-17.1754, 246.293, -89.541)
-start : 8777
-to : (-0.107571, 0.768417, -0.630844)
-
-Gesture Type: Point
-Current Frame ID : 8924
-from : (-15.8815, 248.546, -86.1618)
-start : 8777
-to : (-0.0917434, 0.781238, -0.617455)
-
-Gesture Type: Point
-Current Frame ID : 8925
-from : (-14.3912, 250.583, -83.0567)
-start : 8777
-to : (-0.0781229, 0.789934, -0.608195)
-
-Gesture Type: Point
-Current Frame ID : 8926
-from : (-12.787, 252.421, -80.1957)
-start : 8777
-to : (-0.0651958, 0.79764, -0.5996)
-
-Gesture Type: Point
-Current Frame ID : 8927
-from : (-10.9387, 254.219, -77.2759)
-start : 8777
-to : (-0.0478289, 0.807714, -0.587631)
-
-Gesture Type: Point
-Current Frame ID : 8928
-from : (-8.90938, 255.943, -74.315)
-start : 8777
-to : (-0.0286465, 0.815407, -0.578179)
-
-Gesture Type: Point
-Current Frame ID : 8929
-from : (-7.09686, 257.452, -71.3494)
-start : 8777
-to : (-0.0280428, 0.825632, -0.563512)
-
-Gesture Type: Point
-Current Frame ID : 8930
-from : (-5.57008, 258.697, -68.5834)
-start : 8777
-to : (-0.029861, 0.833645, -0.551492)
-
-Gesture Type: Point
-Current Frame ID : 8931
-from : (-4.26631, 259.719, -66.1375)
-start : 8777
-to : (-0.0286275, 0.839075, -0.543261)
-
-Gesture Type: Point
-Current Frame ID : 8932
-from : (-3.16542, 260.55, -63.9707)
-start : 8777
-to : (-0.0261342, 0.847468, -0.530203)
-
-Gesture Type: Point
-Current Frame ID : 8933
-from : (-2.21489, 261.236, -62.0655)
-start : 8777
-to : (-0.0233673, 0.85128, -0.524191)
-
-Gesture Type: Point
-Current Frame ID : 8934
-from : (-1.51081, 261.737, -60.5288)
-start : 8777
-to : (-0.0283593, 0.852698, -0.521634)
-
-Gesture Type: Point
-Current Frame ID : 8935
-from : (-1.00307, 262.096, -59.3181)
-start : 8777
-to : (-0.0365753, 0.851518, -0.523049)
-
-Gesture Type: Point
-Current Frame ID : 8936
-from : (-0.651218, 262.346, -58.3885)
-start : 8777
-to : (-0.0435749, 0.851314, -0.522844)
-
-Gesture Type: Point
-Current Frame ID : 8937
-from : (-0.41599, 262.522, -57.665)
-start : 8777
-to : (-0.0528571, 0.853625, -0.518199)
-
-Gesture Type: Point
-Current Frame ID : 8938
-from : (-0.24746, 262.641, -57.1287)
-start : 8777
-to : (-0.0535971, 0.855636, -0.514796)
-
-Gesture Type: Point
-Current Frame ID : 8939
-from : (-0.123358, 262.726, -56.7123)
-start : 8777
-to : (-0.0545215, 0.857773, -0.511129)
-
-Gesture Type: Point
-Current Frame ID : 8940
-from : (-0.0429201, 262.783, -56.414)
-start : 8777
-to : (-0.0572942, 0.861612, -0.504323)
-
-Gesture Type: Point
-Current Frame ID : 8941
-from : (0.00575826, 262.82, -56.1947)
-start : 8777
-to : (-0.0647146, 0.856709, -0.511724)
-
-Gesture Type: Point
-Current Frame ID : 8942
-from : (0.0354368, 262.845, -56.0061)
-start : 8777
-to : (-0.0830253, 0.851213, -0.518211)
-
-Gesture Type: Point
-Current Frame ID : 8943
-from : (0.0564821, 262.865, -55.8358)
-start : 8777
-to : (-0.0913879, 0.84929, -0.519956)
-
-Gesture Type: Point
-Current Frame ID : 8944
-from : (0.074855, 262.878, -55.6916)
-start : 8777
-to : (-0.0896227, 0.848742, -0.521157)
-
-Gesture Type: Point
-Current Frame ID : 8945
-from : (0.0877729, 262.887, -55.581)
-start : 8777
-to : (-0.0884073, 0.849356, -0.520365)
-
-Gesture Type: Point
-Current Frame ID : 8946
-from : (0.0971502, 262.891, -55.4904)
-start : 8777
-to : (-0.0909759, 0.842168, -0.531485)
-
-Gesture Type: Point
-Current Frame ID : 8947
-from : (0.103558, 262.894, -55.4013)
-start : 8777
-to : (-0.101697, 0.83001, -0.548398)
-
-Gesture Type: Point
-Current Frame ID : 8948
-from : (0.108498, 262.895, -55.3088)
-start : 8777
-to : (-0.107997, 0.817537, -0.565659)
-
-Gesture Type: Point
-Current Frame ID : 8949
-from : (0.11164, 262.893, -55.1955)
-start : 8777
-to : (-0.117321, 0.80786, -0.57758)
-
-Gesture Type: Point
-Current Frame ID : 8950
-from : (0.113948, 262.888, -55.063)
-start : 8777
-to : (-0.123359, 0.794498, -0.594605)
-
-Gesture Type: Point
-Current Frame ID : 8951
-from : (0.111247, 262.877, -54.9003)
-start : 8777
-to : (-0.133704, 0.794266, -0.592676)
-
-Gesture Type: Point
-Current Frame ID : 8952
-from : (0.104487, 262.86, -54.708)
-start : 8777
-to : (-0.139763, 0.798123, -0.58606)
-
-Gesture Type: Point
-Current Frame ID : 8953
-from : (0.0937229, 262.836, -54.4975)
-start : 8777
-to : (-0.143754, 0.808861, -0.570157)
-
-Gesture Type: Point
-Current Frame ID : 8954
-from : (0.0747003, 262.802, -54.2465)
-start : 8777
-to : (-0.15448, 0.810691, -0.564727)
-
-Gesture Type: Point
-Current Frame ID : 8955
-from : (0.049257, 262.761, -53.9664)
-start : 8777
-to : (-0.159675, 0.822307, -0.546182)
-
-Gesture Type: Point
-Current Frame ID : 8956
-from : (0.0192248, 262.715, -53.6681)
-start : 8777
-to : (-0.160893, 0.832219, -0.530589)
-
-Gesture Type: Point
-Current Frame ID : 8957
-from : (-0.0191272, 262.665, -53.3504)
-start : 8777
-to : (-0.161855, 0.841523, -0.515405)
-
-Gesture Type: Point
-Current Frame ID : 8958
-from : (-0.693419, 261.918, -52.0345)
-start : 8777
-to : (-0.537832, 0.378739, -0.753189)
-
-Gesture Type: Point
-Current Frame ID : 9051
-from : (-60.5284, 163.118, 3.82666)
-start : 9051
-to : (-0.316524, -0.0130719, -0.948494)
-
-Gesture Type: Point
-Current Frame ID : 9052
-from : (-58.563, 162.131, 0.358947)
-start : 9051
-to : (-0.288161, -0.0130183, -0.957493)
-
-Gesture Type: Point
-Current Frame ID : 9053
-from : (-56.5666, 160.899, -3.54361)
-start : 9051
-to : (-0.269002, -0.0291639, -0.962698)
-
-Gesture Type: Point
-Current Frame ID : 9054
-from : (-54.7296, 159.737, -7.28793)
-start : 9051
-to : (-0.256972, -0.0322349, -0.965881)
-
-Gesture Type: Point
-Current Frame ID : 9055
-from : (-53.1187, 158.699, -10.8179)
-start : 9051
-to : (-0.249223, -0.039539, -0.967639)
-
-Gesture Type: Point
-Current Frame ID : 9056
-from : (-51.723, 157.801, -13.9909)
-start : 9051
-to : (-0.245479, -0.0463897, -0.968292)
-
-Gesture Type: Point
-Current Frame ID : 9057
-from : (-50.5613, 157.091, -16.679)
-start : 9051
-to : (-0.237929, -0.0490868, -0.970042)
-
-Gesture Type: Point
-Current Frame ID : 9058
-from : (-49.5707, 156.585, -18.9604)
-start : 9051
-to : (-0.230807, -0.0455816, -0.971931)
-
-Gesture Type: Point
-Current Frame ID : 9059
-from : (-49.5707, 156.585, -18.9604)
-start : 9051
-to : (-0.221269, -0.0384283, -0.974455)
-
-Gesture Type: Point
-Current Frame ID : 9060
-from : (-48.8493, 156.3, -20.6079)
-start : 9051
-to : (-0.2141, -0.0369531, -0.976112)
-
-Gesture Type: Point
-Current Frame ID : 9061
-from : (-48.2371, 156.089, -22.0093)
-start : 9051
-to : (-0.210193, -0.0343421, -0.977056)
-
-Gesture Type: Point
-Current Frame ID : 9062
-from : (-47.7459, 155.934, -23.1461)
-start : 9051
-to : (-0.209038, -0.0337693, -0.977324)
-
-Gesture Type: Point
-Current Frame ID : 9063
-from : (-47.3524, 155.781, -24.0659)
-start : 9051
-to : (-0.209474, -0.0406909, -0.976967)
-
-Gesture Type: Point
-Current Frame ID : 9064
-from : (-47.0373, 155.653, -24.8196)
-start : 9051
-to : (-0.208182, -0.0402124, -0.977263)
-
-Gesture Type: Point
-Current Frame ID : 9065
-from : (-46.7964, 155.549, -25.4132)
-start : 9051
-to : (-0.206949, -0.0379752, -0.977615)
-
-Gesture Type: Point
-Current Frame ID : 9066
-from : (-46.6145, 155.476, -25.8709)
-start : 9051
-to : (-0.204766, -0.0299344, -0.978353)
-
-Gesture Type: Point
-Current Frame ID : 9067
-from : (-46.4866, 155.425, -26.2068)
-start : 9051
-to : (-0.204059, -0.0204456, -0.978745)
-
-Gesture Type: Point
-Current Frame ID : 9068
-from : (-46.3966, 155.392, -26.4503)
-start : 9051
-to : (-0.201231, -0.00654848, -0.979522)
-
-Gesture Type: Point
-Current Frame ID : 9069
-from : (-46.3278, 155.371, -26.6386)
-start : 9051
-to : (-0.197334, 0.00893174, -0.980296)
-
-Gesture Type: Point
-Current Frame ID : 9070
-from : (-46.2781, 155.356, -26.7806)
-start : 9051
-to : (-0.194537, 0.0178361, -0.980733)
-
-Gesture Type: Point
-Current Frame ID : 9071
-from : (-46.2386, 155.346, -26.8958)
-start : 9051
-to : (-0.191459, 0.0291714, -0.981067)
-
-Gesture Type: Point
-Current Frame ID : 9072
-from : (-46.2005, 155.338, -27.0073)
-start : 9051
-to : (-0.187943, 0.0410551, -0.981322)
-
-Gesture Type: Point
-Current Frame ID : 9073
-from : (-46.1623, 155.331, -27.1203)
-start : 9051
-to : (-0.184701, 0.048606, -0.981592)
-
-Gesture Type: Point
-Current Frame ID : 9074
-from : (-46.119, 155.326, -27.2488)
-start : 9051
-to : (-0.179844, 0.0589462, -0.981927)
-
-Gesture Type: Point
-Current Frame ID : 9075
-from : (-46.0608, 155.321, -27.4204)
-start : 9051
-to : (-0.175943, 0.0694609, -0.981947)
-
-Gesture Type: Point
-Current Frame ID : 9076
-from : (-45.9743, 155.32, -27.6741)
-start : 9051
-to : (-0.172552, 0.0818486, -0.981594)
-
-Gesture Type: Point
-Current Frame ID : 9077
-from : (-45.837, 155.325, -28.0755)
-start : 9051
-to : (-0.170512, 0.091903, -0.98106)
-
-Gesture Type: Point
-Current Frame ID : 9078
-from : (-45.6331, 155.342, -28.6694)
-start : 9051
-to : (-0.168572, 0.101812, -0.980417)
-
-Gesture Type: Point
-Current Frame ID : 9079
-from : (-45.3371, 155.38, -29.526)
-start : 9051
-to : (-0.166511, 0.111952, -0.979664)
-
-Gesture Type: Point
-Current Frame ID : 9080
-from : (-44.9127, 155.455, -30.7458)
-start : 9051
-to : (-0.163921, 0.121356, -0.97898)
-
-Gesture Type: Point
-Current Frame ID : 9081
-from : (-44.347, 155.582, -32.3609)
-start : 9051
-to : (-0.161752, 0.129676, -0.978274)
-
-Gesture Type: Point
-Current Frame ID : 9082
-from : (-43.644, 155.771, -34.3477)
-start : 9051
-to : (-0.159901, 0.137309, -0.977537)
-
-Gesture Type: Point
-Current Frame ID : 9083
-from : (-42.854, 155.984, -36.5554)
-start : 9051
-to : (-0.156113, 0.136977, -0.978195)
-
-Gesture Type: Point
-Current Frame ID : 9084
-from : (-42.0809, 156.191, -38.6908)
-start : 9051
-to : (-0.152886, 0.136545, -0.978765)
-
-Gesture Type: Point
-Current Frame ID : 9085
-from : (-41.2563, 156.451, -40.9544)
-start : 9051
-to : (-0.15169, 0.141956, -0.978181)
-
-Gesture Type: Point
-Current Frame ID : 9086
-from : (-40.4275, 156.74, -43.2116)
-start : 9051
-to : (-0.150541, 0.145875, -0.977782)
-
-Gesture Type: Point
-Current Frame ID : 9087
-from : (-39.5191, 157.086, -45.6613)
-start : 9051
-to : (-0.149371, 0.149544, -0.977407)
-
-Gesture Type: Point
-Current Frame ID : 9088
-from : (-38.5438, 157.486, -48.2631)
-start : 9051
-to : (-0.148305, 0.152843, -0.977059)
-
-Gesture Type: Point
-Current Frame ID : 9089
-from : (-37.5829, 157.902, -50.8178)
-start : 9051
-to : (-0.147852, 0.154598, -0.976852)
-
-Gesture Type: Point
-Current Frame ID : 9090
-from : (-36.6514, 158.321, -53.2869)
-start : 9051
-to : (-0.147458, 0.155684, -0.976739)
-
-Gesture Type: Point
-Current Frame ID : 9091
-from : (-35.7444, 158.731, -55.6486)
-start : 9051
-to : (-0.145651, 0.155563, -0.977029)
-
-Gesture Type: Point
-Current Frame ID : 9092
-from : (-34.9095, 159.11, -57.7811)
-start : 9051
-to : (-0.144119, 0.15543, -0.977277)
-
-Gesture Type: Point
-Current Frame ID : 9093
-from : (-34.1152, 159.477, -59.7661)
-start : 9051
-to : (-0.142881, 0.156506, -0.977288)
-
-Gesture Type: Point
-Current Frame ID : 9094
-from : (-33.3614, 159.835, -61.6055)
-start : 9051
-to : (-0.141685, 0.157745, -0.977262)
-
-Gesture Type: Point
-Current Frame ID : 9095
-from : (-32.6375, 160.185, -63.3324)
-start : 9051
-to : (-0.140648, 0.158687, -0.97726)
-
-Gesture Type: Point
-Current Frame ID : 9096
-from : (-31.9636, 160.503, -64.9102)
-start : 9051
-to : (-0.139173, 0.15781, -0.977613)
-
-Gesture Type: Point
-Current Frame ID : 9097
-from : (-31.3993, 160.764, -66.2218)
-start : 9051
-to : (-0.138824, 0.156936, -0.977803)
-
-Gesture Type: Point
-Current Frame ID : 9098
-from : (-30.8993, 160.99, -67.3737)
-start : 9051
-to : (-0.138383, 0.156068, -0.978005)
-
-Gesture Type: Point
-Current Frame ID : 9099
-from : (-30.3804, 161.286, -68.5196)
-start : 9051
-to : (-0.137498, 0.16643, -0.97642)
-
-Gesture Type: Point
-Current Frame ID : 9100
-from : (-29.8588, 161.586, -69.6498)
-start : 9051
-to : (-0.136013, 0.166639, -0.976592)
-
-Gesture Type: Point
-Current Frame ID : 9101
-from : (-29.2905, 161.986, -70.8252)
-start : 9051
-to : (-0.135104, 0.177199, -0.974858)
-
-Gesture Type: Point
-Current Frame ID : 9102
-from : (-28.7031, 162.387, -72.0174)
-start : 9051
-to : (-0.13417, 0.175442, -0.975304)
-
-Gesture Type: Point
-Current Frame ID : 9103
-from : (-28.1371, 162.759, -73.1509)
-start : 9051
-to : (-0.133555, 0.172704, -0.975877)
-
-Gesture Type: Point
-Current Frame ID : 9104
-from : (-26.8701, 163.499, -75.6171)
-start : 9051
-to : (-0.132874, 0.1661, -0.977116)
-
-Gesture Type: Point
-Current Frame ID : 9105
-from : (-26.5227, 163.691, -76.2872)
-start : 9051
-to : (-0.132634, 0.163504, -0.977586)
-
-Gesture Type: Point
-Current Frame ID : 9106
-from : (-26.2054, 163.854, -76.8908)
-start : 9051
-to : (-0.132334, 0.16002, -0.978203)
-
-Gesture Type: Point
-Current Frame ID : 9107
-from : (-25.9272, 163.99, -77.4132)
-start : 9051
-to : (-0.132075, 0.157686, -0.978617)
-
-Gesture Type: Point
-Current Frame ID : 9108
-from : (-25.6746, 164.109, -77.8827)
-start : 9051
-to : (-0.132066, 0.155988, -0.97889)
-
-Gesture Type: Point
-Current Frame ID : 9109
-from : (-25.4397, 164.214, -78.3168)
-start : 9051
-to : (-0.132208, 0.153084, -0.97933)
-
-Gesture Type: Point
-Current Frame ID : 9110
-from : (-25.2306, 164.305, -78.7017)
-start : 9051
-to : (-0.132367, 0.151072, -0.97962)
-
-Gesture Type: Point
-Current Frame ID : 9111
-from : (-25.0408, 164.386, -79.0508)
-start : 9051
-to : (-0.132648, 0.149607, -0.979807)
-
-Gesture Type: Point
-Current Frame ID : 9112
-from : (-24.8658, 164.459, -79.3718)
-start : 9051
-to : (-0.132745, 0.148479, -0.979966)
-
-Gesture Type: Point
-Current Frame ID : 9113
-from : (-24.7146, 164.523, -79.649)
-start : 9051
-to : (-0.132726, 0.147421, -0.980128)
-
-Gesture Type: Point
-Current Frame ID : 9114
-from : (-24.5825, 164.579, -79.8906)
-start : 9051
-to : (-0.132705, 0.146856, -0.980216)
-
-Gesture Type: Point
-Current Frame ID : 9115
-from : (-24.4439, 164.645, -80.1433)
-start : 9051
-to : (-0.132736, 0.147145, -0.980168)
-
-Gesture Type: Point
-Current Frame ID : 9116
-from : (-24.3057, 164.715, -80.3963)
-start : 9051
-to : (-0.132964, 0.14613, -0.980289)
-
-Gesture Type: Point
-Current Frame ID : 9117
-from : (-24.1603, 164.791, -80.6636)
-start : 9051
-to : (-0.133267, 0.144111, -0.980547)
-
-Gesture Type: Point
-Current Frame ID : 9118
-from : (-24.0139, 164.869, -80.9336)
-start : 9051
-to : (-0.133567, 0.142154, -0.980792)
-
-Gesture Type: Point
-Current Frame ID : 9119
-from : (-23.8623, 164.954, -81.2155)
-start : 9051
-to : (-0.134086, 0.140251, -0.980995)
-
-Gesture Type: Point
-Current Frame ID : 9120
-from : (-23.7183, 165.041, -81.4816)
-start : 9051
-to : (-0.134651, 0.138973, -0.981099)
-
-Gesture Type: Point
-Current Frame ID : 9121
-from : (-23.597, 165.115, -81.705)
-start : 9051
-to : (-0.135401, 0.135945, -0.98142)
-
-Gesture Type: Point
-Current Frame ID : 9122
-from : (-23.503, 165.172, -81.8788)
-start : 9051
-to : (-0.136421, 0.131914, -0.981829)
-
-Gesture Type: Point
-Current Frame ID : 9123
-from : (-23.4299, 165.215, -82.0153)
-start : 9051
-to : (-0.137553, 0.127503, -0.982254)
-
-Gesture Type: Point
-Current Frame ID : 9124
-from : (-23.3726, 165.248, -82.1231)
-start : 9051
-to : (-0.138412, 0.12408, -0.982571)
-
-Gesture Type: Point
-Current Frame ID : 9125
-from : (-23.3259, 165.276, -82.211)
-start : 9051
-to : (-0.138505, 0.123252, -0.982662)
-
-Gesture Type: Point
-Current Frame ID : 9126
-from : (-23.2856, 165.3, -82.2872)
-start : 9051
-to : (-0.138323, 0.122987, -0.982721)
-
-Gesture Type: Point
-Current Frame ID : 9127
-from : (-23.2513, 165.32, -82.3521)
-start : 9051
-to : (-0.138198, 0.123209, -0.982711)
-
-Gesture Type: Point
-Current Frame ID : 9128
-from : (-23.2177, 165.341, -82.4157)
-start : 9051
-to : (-0.138014, 0.123976, -0.98264)
-
-Gesture Type: Point
-Current Frame ID : 9129
-from : (-23.1829, 165.364, -82.4813)
-start : 9051
-to : (-0.137697, 0.125742, -0.98246)
-
-Gesture Type: Point
-Current Frame ID : 9130
-from : (-23.145, 165.391, -82.5522)
-start : 9051
-to : (-0.137199, 0.128006, -0.982238)
-
-Gesture Type: Point
-Current Frame ID : 9131
-from : (-23.1044, 165.423, -82.628)
-start : 9051
-to : (-0.136968, 0.130446, -0.981949)
-
-Gesture Type: Point
-Current Frame ID : 9132
-from : (-23.0647, 165.457, -82.7024)
-start : 9051
-to : (-0.136833, 0.131472, -0.981831)
-
-Gesture Type: Point
-Current Frame ID : 9133
-from : (-23.0246, 165.492, -82.7773)
-start : 9051
-to : (-0.136098, 0.13171, -0.981901)
-
-Gesture Type: Point
-Current Frame ID : 9134
-from : (-22.988, 165.537, -82.8467)
-start : 9051
-to : (-0.136522, 0.136351, -0.981209)
-
-Gesture Type: Point
-Current Frame ID : 9135
-from : (-22.9539, 165.597, -82.9101)
-start : 9051
-to : (-0.13662, 0.14326, -0.98021)
-
-Gesture Type: Point
-Current Frame ID : 9136
-from : (-22.9209, 165.673, -82.97)
-start : 9051
-to : (-0.137095, 0.1473, -0.979545)
-
-Gesture Type: Point
-Current Frame ID : 9137
-from : (-22.8883, 165.751, -83.0263)
-start : 9051
-to : (-0.136641, 0.147154, -0.97963)
-
-Gesture Type: Point
-Current Frame ID : 9138
-from : (-22.8575, 165.827, -83.0784)
-start : 9051
-to : (-0.136609, 0.145746, -0.979845)
-
-Gesture Type: Point
-Current Frame ID : 9139
-from : (-22.8286, 165.899, -83.1261)
-start : 9051
-to : (-0.136496, 0.143924, -0.98013)
-
-Gesture Type: Point
-Current Frame ID : 9140
-from : (-22.8046, 165.96, -83.1665)
-start : 9051
-to : (-0.136825, 0.139663, -0.9807)
-
-Gesture Type: Point
-Current Frame ID : 9141
-from : (-22.7862, 166.006, -83.1998)
-start : 9051
-to : (-0.137475, 0.134493, -0.981332)
-
-Gesture Type: Point
-Current Frame ID : 9142
-from : (-22.771, 166.045, -83.2284)
-start : 9051
-to : (-0.137669, 0.13195, -0.98165)
-
-Gesture Type: Point
-Current Frame ID : 9143
-from : (-22.758, 166.079, -83.2533)
-start : 9051
-to : (-0.137671, 0.130273, -0.981874)
-
-Gesture Type: Point
-Current Frame ID : 9144
-from : (-22.7465, 166.111, -83.277)
-start : 9051
-to : (-0.138071, 0.12878, -0.982014)
-
-Gesture Type: Point
-Current Frame ID : 9145
-from : (-22.7366, 166.142, -83.2985)
-start : 9051
-to : (-0.138423, 0.127186, -0.982172)
-
-Gesture Type: Point
-Current Frame ID : 9146
-from : (-22.7278, 166.17, -83.3185)
-start : 9051
-to : (-0.13862, 0.12572, -0.982333)
-
-Gesture Type: Point
-Current Frame ID : 9147
-from : (-22.7121, 166.225, -83.3578)
-start : 9051
-to : (-0.139362, 0.122032, -0.982694)
-
-Gesture Type: Point
-Current Frame ID : 9148
-from : (-22.7048, 166.251, -83.3764)
-start : 9051
-to : (-0.139462, 0.12195, -0.982689)
-
-Gesture Type: Point
-Current Frame ID : 9149
-from : (-22.6981, 166.276, -83.3945)
-start : 9051
-to : (-0.139606, 0.122324, -0.982622)
-
-Gesture Type: Point
-Current Frame ID : 9150
-from : (-22.6923, 166.301, -83.4117)
-start : 9051
-to : (-0.139991, 0.123683, -0.982398)
-
-Gesture Type: Point
-Current Frame ID : 9151
-from : (-22.6875, 166.325, -83.4263)
-start : 9051
-to : (-0.140167, 0.127266, -0.981915)
-
-Gesture Type: Point
-Current Frame ID : 9152
-from : (-22.6834, 166.347, -83.4389)
-start : 9051
-to : (-0.140142, 0.131798, -0.98132)
-
-Gesture Type: Point
-Current Frame ID : 9153
-from : (-22.6798, 166.37, -83.4506)
-start : 9051
-to : (-0.140134, 0.135809, -0.980774)
-
-Gesture Type: Point
-Current Frame ID : 9154
-from : (-22.6767, 166.394, -83.4613)
-start : 9051
-to : (-0.140523, 0.138736, -0.980309)
-
-Gesture Type: Point
-Current Frame ID : 9155
-from : (-22.6744, 166.417, -83.4703)
-start : 9051
-to : (-0.141264, 0.140443, -0.979959)
-
-Gesture Type: Point
-Current Frame ID : 9156
-from : (-22.6733, 166.438, -83.4774)
-start : 9051
-to : (-0.142845, 0.140239, -0.979759)
-
-Gesture Type: Point
-Current Frame ID : 9157
-from : (-22.6733, 166.457, -83.4826)
-start : 9051
-to : (-0.144788, 0.138387, -0.979738)
-
-Gesture Type: Point
-Current Frame ID : 9158
-from : (-22.6759, 166.472, -83.4861)
-start : 9051
-to : (-0.150478, 0.126565, -0.980478)
-
-Gesture Type: Point
-Current Frame ID : 9159
-from : (-22.6872, 166.486, -83.4863)
-start : 9051
-to : (-0.162524, 0.105114, -0.98109)
-
-Gesture Type: Point
-Current Frame ID : 9160
-from : (-22.7336, 166.49, -83.4711)
-start : 9051
-to : (-0.182908, 0.0713577, -0.980537)
-
-Gesture Type: Point
-Current Frame ID : 9161
-from : (-22.9043, 166.429, -83.406)
-start : 9051
-to : (-0.20624, 0.0277893, -0.978107)
-
-Gesture Type: Point
-Current Frame ID : 9162
-from : (-23.3626, 166.206, -83.2205)
-start : 9051
-to : (-0.226468, -0.00446164, -0.974008)
-
-Gesture Type: Point
-Current Frame ID : 9163
-from : (-28.4483, 155.611, -78.3571)
-start : 9051
-to : (-0.270912, -0.480726, -0.833972)
+Gesture Type: point
+frame_id : 349
+from : (-41.1385, 193.676, -96.1832)
+start : 349
+to : (-0.234089, 0.307243, -0.92239)
+
+Gesture Type: point
+frame_id : 350
+from : (-41.4783, 197.759, -94.6848)
+start : 349
+to : (-0.276543, 0.291475, -0.915733)
+
+Gesture Type: point
+frame_id : 351
+from : (-40.6241, 204.08, -90.2016)
+start : 349
+to : (-0.29961, 0.323489, -0.897546)
+
+Gesture Type: point
+frame_id : 352
+from : (-39.891, 208.883, -86.7315)
+start : 349
+to : (-0.312993, 0.334137, -0.889038)
+
+Gesture Type: point
+frame_id : 353
+from : (-39.3195, 210.229, -85.2383)
+start : 349
+to : (-0.313681, 0.296615, -0.902011)
+
+Gesture Type: point
+frame_id : 354
+from : (-37.6304, 213.955, -81.8108)
+start : 349
+to : (-0.309314, 0.310662, -0.898785)
+
+Gesture Type: point
+frame_id : 355
+from : (-34.8121, 218.659, -79.9308)
+start : 349
+to : (-0.283035, 0.339013, -0.897196)
+
+Gesture Type: point
+frame_id : 356
+from : (-30.3034, 219.83, -80.7059)
+start : 349
+to : (-0.265171, 0.285434, -0.920984)
+
+Gesture Type: point
+frame_id : 357
+from : (-29.6271, 219.408, -81.0443)
+start : 349
+to : (-0.261208, 0.270439, -0.926625)
+
+Gesture Type: point
+frame_id : 358
+from : (-28.9357, 218.447, -81.4763)
+start : 349
+to : (-0.259606, 0.247713, -0.933404)
+
+Gesture Type: point
+frame_id : 359
+from : (-27.9516, 217.239, -81.5114)
+start : 349
+to : (-0.25764, 0.226116, -0.939411)
+
+Gesture Type: point
+frame_id : 360
+from : (-27.2223, 216.139, -81.4841)
+start : 349
+to : (-0.258003, 0.208699, -0.943334)
+
+Gesture Type: point
+frame_id : 361
+from : (-26.7001, 215.165, -81.5497)
+start : 349
+to : (-0.258434, 0.196346, -0.945865)
+
+Gesture Type: point
+frame_id : 362
+from : (-26.2955, 214.385, -81.6648)
+start : 349
+to : (-0.257965, 0.18801, -0.947685)
+
+Gesture Type: point
+frame_id : 363
+from : (-26.0314, 213.794, -81.7751)
+start : 349
+to : (-0.257529, 0.182048, -0.948967)
+
+Gesture Type: point
+frame_id : 364
+from : (-25.737, 213.209, -81.9106)
+start : 349
+to : (-0.255807, 0.177552, -0.950283)
+
+Gesture Type: point
+frame_id : 365
+from : (-25.5577, 212.743, -82.0031)
+start : 349
+to : (-0.255519, 0.176146, -0.950622)
+
+Gesture Type: point
+frame_id : 366
+from : (-25.3028, 212.031, -82.4623)
+start : 349
+to : (-0.252389, 0.174003, -0.951852)
+
+Gesture Type: point
+frame_id : 367
+from : (-25.1032, 211.328, -82.9742)
+start : 349
+to : (-0.249653, 0.170495, -0.953208)
+
+Gesture Type: point
+frame_id : 368
+from : (-24.9263, 210.51, -83.6228)
+start : 349
+to : (-0.246416, 0.166708, -0.954719)
+
+Gesture Type: point
+frame_id : 369
+from : (-24.7732, 209.701, -84.5336)
+start : 349
+to : (-0.241554, 0.163035, -0.956594)
+
+Gesture Type: point
+frame_id : 370
+from : (-24.6901, 209.011, -85.7827)
+start : 349
+to : (-0.236095, 0.163219, -0.957924)
+
+Gesture Type: point
+frame_id : 371
+from : (-24.6488, 208.48, -86.7338)
+start : 349
+to : (-0.233141, 0.163681, -0.958569)
+
+Gesture Type: point
+frame_id : 372
+from : (-24.6714, 208.071, -87.3746)
+start : 349
+to : (-0.231952, 0.165279, -0.958583)
+
+Gesture Type: point
+frame_id : 373
+from : (-24.7134, 207.786, -87.8132)
+start : 349
+to : (-0.231338, 0.167242, -0.958391)
+
+Gesture Type: point
+frame_id : 374
+from : (-24.7628, 207.51, -88.1621)
+start : 349
+to : (-0.230379, 0.166927, -0.958677)
+
+Gesture Type: point
+frame_id : 375
+from : (-24.7745, 207.284, -88.553)
+start : 349
+to : (-0.228356, 0.16963, -0.958686)
+
+Gesture Type: point
+frame_id : 376
+from : (-24.7779, 207.04, -88.9432)
+start : 349
+to : (-0.226606, 0.168748, -0.959257)
+
+Gesture Type: point
+frame_id : 377
+from : (-24.7535, 206.842, -89.3018)
+start : 349
+to : (-0.224474, 0.168568, -0.95979)
+
+Gesture Type: point
+frame_id : 378
+from : (-24.7401, 206.661, -89.554)
+start : 349
+to : (-0.224666, 0.166537, -0.960099)
+
+Gesture Type: point
+frame_id : 379
+from : (-24.8373, 206.779, -89.6635)
+start : 349
+to : (-0.230094, 0.184765, -0.955468)
+
+Gesture Type: point
+frame_id : 380
+from : (-24.9378, 206.872, -89.7336)
+start : 349
+to : (-0.230188, 0.186838, -0.955042)
+
+Gesture Type: point
+frame_id : 381
+from : (-25.136, 207.286, -89.678)
+start : 349
+to : (-0.232796, 0.202139, -0.951286)
+
+Gesture Type: point
+frame_id : 382
+from : (-25.1733, 207.38, -89.84)
+start : 349
+to : (-0.226792, 0.19752, -0.953704)
+
+Gesture Type: point
+frame_id : 383
+from : (-25.3387, 207.542, -89.9601)
+start : 349
+to : (-0.230687, 0.203768, -0.951453)
+
+Gesture Type: point
+frame_id : 384
+from : (-25.4777, 207.592, -90.065)
+start : 349
+to : (-0.230541, 0.199854, -0.952318)
+
+Gesture Type: point
+frame_id : 385
+from : (-25.6603, 207.624, -90.1683)
+start : 349
+to : (-0.231602, 0.201568, -0.951699)
+
+Gesture Type: point
+frame_id : 386
+from : (-25.6607, 207.5, -90.3729)
+start : 349
+to : (-0.225919, 0.195256, -0.954377)
+
+Gesture Type: point
+frame_id : 387
+from : (-25.5676, 207.308, -90.6361)
+start : 349
+to : (-0.221899, 0.188932, -0.95659)
+
+Gesture Type: point
+frame_id : 388
+from : (-25.4601, 207.153, -90.8923)
+start : 349
+to : (-0.220101, 0.187598, -0.957268)
+
+Gesture Type: point
+frame_id : 389
+from : (-25.3578, 206.989, -91.1291)
+start : 349
+to : (-0.218777, 0.184244, -0.958223)
+
+Gesture Type: point
+frame_id : 390
+from : (-25.2507, 206.804, -91.3591)
+start : 349
+to : (-0.217347, 0.179892, -0.959374)
+
+Gesture Type: point
+frame_id : 391
+from : (-25.134, 206.567, -91.6086)
+start : 349
+to : (-0.216462, 0.173792, -0.960698)
+
+Gesture Type: point
+frame_id : 392
+from : (-25.0411, 206.484, -91.801)
+start : 349
+to : (-0.217195, 0.179641, -0.959456)
+
+Gesture Type: point
+frame_id : 393
+from : (-24.9369, 206.367, -91.9931)
+start : 349
+to : (-0.215724, 0.175475, -0.960558)
+
+Gesture Type: point
+frame_id : 394
+from : (-24.8181, 206.194, -92.2009)
+start : 349
+to : (-0.214282, 0.16877, -0.962081)
+
+Gesture Type: point
+frame_id : 395
+from : (-24.6838, 205.949, -92.4339)
+start : 349
+to : (-0.213327, 0.161928, -0.963468)
+
+Gesture Type: point
+frame_id : 396
+from : (-24.5344, 205.632, -92.6948)
+start : 349
+to : (-0.212691, 0.156026, -0.964582)
+
+Gesture Type: point
+frame_id : 397
+from : (-24.3763, 205.267, -92.9663)
+start : 349
+to : (-0.211826, 0.150928, -0.965583)
+
+Gesture Type: point
+frame_id : 398
+from : (-24.2051, 204.861, -93.2466)
+start : 349
+to : (-0.210695, 0.146211, -0.966556)
+
+Gesture Type: point
+frame_id : 399
+from : (-24.0209, 204.416, -93.532)
+start : 349
+to : (-0.209462, 0.141582, -0.967512)
+
+Gesture Type: point
+frame_id : 400
+from : (-23.8295, 203.943, -93.8102)
+start : 349
+to : (-0.207919, 0.136202, -0.968617)
+
+Gesture Type: point
+frame_id : 401
+from : (-23.6538, 203.452, -94.0699)
+start : 349
+to : (-0.207254, 0.131225, -0.969446)
+
+Gesture Type: point
+frame_id : 402
+from : (-23.4978, 202.944, -94.3124)
+start : 349
+to : (-0.206974, 0.125915, -0.97021)
+
+Gesture Type: point
+frame_id : 403
+from : (-23.3506, 202.442, -94.5463)
+start : 349
+to : (-0.206508, 0.120558, -0.970989)
+
+Gesture Type: point
+frame_id : 404
+from : (-23.215, 201.962, -94.7658)
+start : 349
+to : (-0.206524, 0.117218, -0.971395)
+
+Gesture Type: point
+frame_id : 405
+from : (-23.091, 201.528, -94.9569)
+start : 349
+to : (-0.20618, 0.113713, -0.971884)
+
+Gesture Type: point
+frame_id : 406
+from : (-22.9456, 201.119, -95.1426)
+start : 349
+to : (-0.205193, 0.110383, -0.972477)
+
+Gesture Type: point
+frame_id : 407
+from : (-22.7928, 200.75, -95.3144)
+start : 349
+to : (-0.20431, 0.107389, -0.972998)
+
+Gesture Type: point
+frame_id : 408
+from : (-22.6397, 200.369, -95.499)
+start : 349
+to : (-0.203713, 0.103914, -0.9735)
+
+Gesture Type: point
+frame_id : 409
+from : (-22.4835, 200.001, -95.6841)
+start : 349
+to : (-0.202942, 0.101219, -0.973945)
+
+Gesture Type: point
+frame_id : 410
+from : (-22.3475, 199.731, -95.8474)
+start : 349
+to : (-0.202671, 0.101447, -0.973978)
+
+Gesture Type: point
+frame_id : 411
+from : (-22.2194, 199.513, -95.9925)
+start : 349
+to : (-0.20213, 0.100793, -0.974158)
+
+Gesture Type: point
+frame_id : 412
+from : (-22.0847, 199.336, -96.1313)
+start : 349
+to : (-0.201518, 0.100902, -0.974274)
+
+Gesture Type: point
+frame_id : 413
+from : (-21.9465, 199.18, -96.2585)
+start : 349
+to : (-0.20072, 0.100417, -0.974489)
+
+Gesture Type: point
+frame_id : 414
+from : (-21.8047, 199.024, -96.3803)
+start : 349
+to : (-0.199808, 0.099167, -0.974804)
+
+Gesture Type: point
+frame_id : 415
+from : (-21.6647, 198.855, -96.4966)
+start : 349
+to : (-0.198904, 0.0970385, -0.975203)
+
+Gesture Type: point
+frame_id : 416
+from : (-21.5317, 198.691, -96.6037)
+start : 349
+to : (-0.198084, 0.095562, -0.975515)
+
+Gesture Type: point
+frame_id : 417
+from : (-21.3954, 198.527, -96.7051)
+start : 349
+to : (-0.197513, 0.0943065, -0.975754)
+
+Gesture Type: point
+frame_id : 418
+from : (-21.2395, 198.321, -96.8248)
+start : 349
+to : (-0.196735, 0.0923593, -0.976097)
+
+Gesture Type: point
+frame_id : 419
+from : (-21.0878, 198.107, -96.9446)
+start : 349
+to : (-0.196245, 0.0909083, -0.976332)
+
+Gesture Type: point
+frame_id : 420
+from : (-20.9277, 197.885, -97.0681)
+start : 349
+to : (-0.195738, 0.089776, -0.976538)
+
+Gesture Type: point
+frame_id : 421
+from : (-20.7719, 197.676, -97.1822)
+start : 349
+to : (-0.195203, 0.0890541, -0.976711)
+
+Gesture Type: point
+frame_id : 422
+from : (-20.6124, 197.443, -97.2971)
+start : 349
+to : (-0.194914, 0.0877616, -0.976886)
+
+Gesture Type: point
+frame_id : 423
+from : (-20.4581, 197.205, -97.4055)
+start : 349
+to : (-0.19463, 0.086837, -0.977025)
+
+Gesture Type: point
+frame_id : 424
+from : (-20.3143, 196.971, -97.5061)
+start : 349
+to : (-0.19428, 0.0856788, -0.977197)
+
+Gesture Type: point
+frame_id : 425
+from : (-20.1701, 196.709, -97.6133)
+start : 349
+to : (-0.193822, 0.0838295, -0.977449)
+
+Gesture Type: point
+frame_id : 426
+from : (-20.0287, 196.453, -97.7159)
+start : 349
+to : (-0.193403, 0.0829101, -0.97761)
+
+Gesture Type: point
+frame_id : 427
+from : (-19.8904, 196.227, -97.8041)
+start : 349
+to : (-0.193492, 0.0835244, -0.97754)
+
+Gesture Type: point
+frame_id : 428
+from : (-19.7482, 195.984, -97.8911)
+start : 349
+to : (-0.193268, 0.0828162, -0.977645)
+
+Gesture Type: point
+frame_id : 429
+from : (-19.5917, 195.704, -98.0116)
+start : 349
+to : (-0.192022, 0.0799978, -0.978125)
+
+Gesture Type: point
+frame_id : 430
+from : (-19.4177, 195.394, -98.1576)
+start : 349
+to : (-0.190872, 0.0778214, -0.978525)
+
+Gesture Type: point
+frame_id : 431
+from : (-19.2508, 195.101, -98.3025)
+start : 349
+to : (-0.189697, 0.0760914, -0.97889)
+
+Gesture Type: point
+frame_id : 432
+from : (-19.075, 194.793, -98.4484)
+start : 349
+to : (-0.188777, 0.074057, -0.979224)
+
+Gesture Type: point
+frame_id : 433
+from : (-18.8998, 194.487, -98.5895)
+start : 349
+to : (-0.187988, 0.0725398, -0.979489)
+
+Gesture Type: point
+frame_id : 434
+from : (-18.7313, 194.185, -98.7209)
+start : 349
+to : (-0.187628, 0.0709005, -0.979678)
+
+Gesture Type: point
+frame_id : 435
+from : (-18.5567, 193.878, -98.8501)
+start : 349
+to : (-0.187078, 0.0698498, -0.979859)
+
+Gesture Type: point
+frame_id : 436
+from : (-18.3866, 193.587, -98.9691)
+start : 349
+to : (-0.186798, 0.0693811, -0.979945)
+
+Gesture Type: point
+frame_id : 437
+from : (-18.2258, 193.324, -99.0739)
+start : 349
+to : (-0.186534, 0.0693263, -0.98)
+
+Gesture Type: point
+frame_id : 438
+from : (-18.0714, 193.089, -99.1651)
+start : 349
+to : (-0.186258, 0.0695545, -0.980036)
+
+Gesture Type: point
+frame_id : 439
+from : (-17.9192, 192.878, -99.2442)
+start : 349
+to : (-0.186232, 0.0704376, -0.979978)
+
+Gesture Type: point
+frame_id : 440
+from : (-17.7744, 192.698, -99.3081)
+start : 349
+to : (-0.18613, 0.0717307, -0.979903)
+
+Gesture Type: point
+frame_id : 441
+from : (-17.6262, 192.529, -99.3651)
+start : 349
+to : (-0.185787, 0.0722643, -0.979929)
+
+Gesture Type: point
+frame_id : 442
+from : (-17.4827, 192.382, -99.4135)
+start : 349
+to : (-0.185415, 0.0729589, -0.979948)
+
+Gesture Type: point
+frame_id : 443
+from : (-17.3412, 192.246, -99.4551)
+start : 349
+to : (-0.185136, 0.0732585, -0.979979)
+
+Gesture Type: point
+frame_id : 444
+from : (-17.1944, 192.118, -99.4909)
+start : 349
+to : (-0.18473, 0.0737356, -0.980019)
+
+Gesture Type: point
+frame_id : 445
+from : (-17.0529, 192.003, -99.5215)
+start : 349
+to : (-0.184282, 0.0739427, -0.980088)
+
+Gesture Type: point
+frame_id : 446
+from : (-16.9139, 191.89, -99.5497)
+start : 349
+to : (-0.183873, 0.0738598, -0.980171)
+
+Gesture Type: point
+frame_id : 447
+from : (-16.7825, 191.785, -99.5752)
+start : 349
+to : (-0.183411, 0.0738901, -0.980255)
+
+Gesture Type: point
+frame_id : 448
+from : (-16.6501, 191.683, -99.6006)
+start : 349
+to : (-0.1826, 0.0738131, -0.980413)
+
+Gesture Type: point
+frame_id : 449
+from : (-16.5256, 191.59, -99.6239)
+start : 349
+to : (-0.181946, 0.0738492, -0.980532)
+
+Gesture Type: point
+frame_id : 450
+from : (-16.4059, 191.506, -99.6439)
+start : 349
+to : (-0.181481, 0.0741309, -0.980596)
+
+Gesture Type: point
+frame_id : 451
+from : (-16.2857, 191.43, -99.6601)
+start : 349
+to : (-0.180994, 0.0746111, -0.98065)
+
+Gesture Type: point
+frame_id : 452
+from : (-16.1705, 191.364, -99.6731)
+start : 349
+to : (-0.180474, 0.0751006, -0.980708)
+
+Gesture Type: point
+frame_id : 453
+from : (-16.0545, 191.309, -99.6812)
+start : 349
+to : (-0.179804, 0.0761148, -0.980753)
+
+Gesture Type: point
+frame_id : 454
+from : (-15.9337, 191.261, -99.6848)
+start : 349
+to : (-0.179146, 0.0767736, -0.980823)
+
+Gesture Type: point
+frame_id : 455
+from : (-15.819, 191.221, -99.6839)
+start : 349
+to : (-0.178564, 0.07729, -0.980888)
+
+Gesture Type: point
+frame_id : 456
+from : (-15.6617, 191.184, -99.6591)
+start : 349
+to : (-0.17456, 0.0779174, -0.981559)
+
+Gesture Type: point
+frame_id : 457
+from : (-15.4734, 191.173, -99.614)
+start : 349
+to : (-0.171088, 0.0808465, -0.981933)
+
+Gesture Type: point
+frame_id : 458
+from : (-15.2625, 191.19, -99.5432)
+start : 349
+to : (-0.167458, 0.0845051, -0.982251)
+
+Gesture Type: point
+frame_id : 459
+from : (-15.017, 191.235, -99.4418)
+start : 349
+to : (-0.163737, 0.0880261, -0.982569)
+
+Gesture Type: point
+frame_id : 460
+from : (-14.7574, 191.329, -99.2951)
+start : 349
+to : (-0.161082, 0.0937229, -0.982481)
+
+Gesture Type: point
+frame_id : 461
+from : (-14.494, 191.459, -99.1045)
+start : 349
+to : (-0.159962, 0.0993635, -0.982109)
+
+Gesture Type: point
+frame_id : 462
+from : (-14.2239, 191.621, -98.8826)
+start : 349
+to : (-0.158034, 0.105485, -0.981783)
+
+Gesture Type: point
+frame_id : 463
+from : (-13.9515, 191.805, -98.6449)
+start : 349
+to : (-0.15675, 0.110467, -0.981441)
+
+Gesture Type: point
+frame_id : 464
+from : (-13.6971, 191.968, -98.4039)
+start : 349
+to : (-0.156588, 0.110866, -0.981422)
+
+Gesture Type: point
+frame_id : 465
+from : (-13.4547, 192.121, -98.1582)
+start : 349
+to : (-0.155805, 0.111594, -0.981464)
+
+Gesture Type: point
+frame_id : 466
+from : (-13.259, 192.199, -97.9691)
+start : 349
+to : (-0.155905, 0.103104, -0.982376)
+
+Gesture Type: point
+frame_id : 467
+from : (-13.0395, 192.14, -97.7921)
+start : 349
+to : (-0.157336, 0.0739003, -0.984776)
+
+Gesture Type: point
+frame_id : 468
+from : (-12.6137, 191.329, -97.6064)
+start : 349
+to : (-0.159932, 0.0068575, -0.987104)
+
+Gesture Type: point
+frame_id : 469
+from : (-11.4004, 184.221, -97.4463)
+start : 349
+to : (-0.167959, -0.113347, -0.979256)
+
+Gesture Type: point
+frame_id : 470
+from : (-11.0573, 170.425, -96.696)
+start : 349
+to : (-0.17654, -0.299055, -0.937763)
+
+Gesture Type: point
+frame_id : 471
+from : (-10.3577, 142.163, -85.6195)
+start : 349
+to : (-0.169432, -0.805211, -0.568267)
+
+Gesture Type: clear_space
+Left Normal : (0.889244, 0.411594, 0.199588)
+Left position : (-27.4425, 160.542, -22.2465)
+Right Normal : (-0.95776, -0.113538, -0.264205)
+Right position : (57.7588, 187.668, -1.71774)
+frame_id : 631
+start : 631
+
+Gesture Type: clear_space
+Left Normal : (0.888958, 0.418468, 0.186113)
+Left position : (-30.9545, 164.789, -23.387)
+Right Normal : (-0.945949, -0.132534, -0.296)
+Right position : (59.2003, 192.777, -5.06817)
+frame_id : 670
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.887618, 0.421494, 0.185683)
+Left position : (-31.3528, 164.678, -23.4935)
+Right Normal : (-0.945735, -0.13031, -0.297664)
+Right position : (61.5408, 193.016, -5.33843)
+frame_id : 671
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.886079, 0.425024, 0.184982)
+Left position : (-31.8263, 164.546, -23.5954)
+Right Normal : (-0.945017, -0.128327, -0.300792)
+Right position : (64.1233, 193.08, -5.73293)
+frame_id : 672
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.884751, 0.428201, 0.184011)
+Left position : (-32.3068, 164.421, -23.6965)
+Right Normal : (-0.944736, -0.123112, -0.303839)
+Right position : (66.7312, 193.029, -5.52294)
+frame_id : 673
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.884397, 0.429452, 0.182794)
+Left position : (-32.7401, 164.312, -23.8413)
+Right Normal : (-0.944263, -0.118279, -0.307208)
+Right position : (69.9132, 192.788, -5.7375)
+frame_id : 674
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.882655, 0.433304, 0.182118)
+Left position : (-33.3123, 164.142, -24.0379)
+Right Normal : (-0.943372, -0.114675, -0.311285)
+Right position : (73.1032, 192.459, -4.95765)
+frame_id : 675
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.88151, 0.436009, 0.181207)
+Left position : (-33.9102, 163.975, -24.2149)
+Right Normal : (-0.942646, -0.109765, -0.315231)
+Right position : (76.3943, 192.433, -4.83981)
+frame_id : 676
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.880519, 0.438444, 0.180149)
+Left position : (-34.5251, 163.84, -24.3501)
+Right Normal : (-0.942006, -0.10628, -0.318323)
+Right position : (79.7834, 192.489, -4.09041)
+frame_id : 677
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.879216, 0.441503, 0.179039)
+Left position : (-35.1722, 163.689, -24.4799)
+Right Normal : (-0.942196, -0.104363, -0.318395)
+Right position : (83.1705, 191.678, -3.39811)
+frame_id : 678
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.879739, 0.441021, 0.177651)
+Left position : (-35.6225, 163.613, -24.5101)
+Right Normal : (-0.941422, -0.106301, -0.320038)
+Right position : (86.7138, 191.051, -3.36476)
+frame_id : 679
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.878759, 0.442993, 0.177591)
+Left position : (-36.169, 163.436, -24.6356)
+Right Normal : (-0.940079, -0.105152, -0.324338)
+Right position : (90.2454, 190.834, -3.24872)
+frame_id : 680
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.877929, 0.444757, 0.177291)
+Left position : (-36.74, 163.272, -24.6615)
+Right Normal : (-0.936344, -0.103876, -0.335364)
+Right position : (93.6805, 190.304, -0.88613)
+frame_id : 681
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.878185, 0.444615, 0.176374)
+Left position : (-37.135, 163.153, -24.6399)
+Right Normal : (-0.934593, -0.11053, -0.33811)
+Right position : (97.423, 190.412, -0.85384)
+frame_id : 682
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.878357, 0.444349, 0.176191)
+Left position : (-37.4932, 163.036, -24.641)
+Right Normal : (-0.932631, -0.106742, -0.344682)
+Right position : (100.843, 189.999, -1.0329)
+frame_id : 683
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.878345, 0.444474, 0.175934)
+Left position : (-37.8495, 162.87, -24.6191)
+Right Normal : (-0.931294, -0.105522, -0.348651)
+Right position : (104.177, 190.168, -0.526106)
+frame_id : 684
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.877094, 0.446722, 0.176479)
+Left position : (-38.2935, 162.65, -24.6221)
+Right Normal : (-0.931005, -0.107552, -0.3488)
+Right position : (107.356, 190.157, -0.136545)
+frame_id : 685
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.876651, 0.44765, 0.17633)
+Left position : (-38.6176, 162.481, -24.6321)
+Right Normal : (-0.934821, -0.101634, -0.340266)
+Right position : (109.936, 189.242, 1.56916)
+frame_id : 686
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.87599, 0.448912, 0.176406)
+Left position : (-38.8944, 162.311, -24.6671)
+Right Normal : (-0.930991, -0.113575, -0.346925)
+Right position : (113.38, 188.983, 2.58089)
+frame_id : 687
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.875546, 0.449705, 0.176593)
+Left position : (-39.1028, 162.177, -24.7187)
+Right Normal : (-0.927566, -0.118538, -0.354358)
+Right position : (116.72, 189.388, 1.92567)
+frame_id : 688
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.874815, 0.450885, 0.177207)
+Left position : (-39.3104, 162.021, -24.7133)
+Right Normal : (-0.925664, -0.116761, -0.359879)
+Right position : (119.903, 190.402, 1.80652)
+frame_id : 689
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.874128, 0.451992, 0.177775)
+Left position : (-39.4839, 161.88, -24.6921)
+Right Normal : (-0.921991, -0.117487, -0.368958)
+Right position : (122.487, 190.371, 1.7598)
+frame_id : 690
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.87348, 0.453056, 0.178251)
+Left position : (-39.6006, 161.743, -24.7298)
+Right Normal : (-0.924931, -0.0966847, -0.367635)
+Right position : (123.786, 189.514, 3.04996)
+frame_id : 691
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.873002, 0.453827, 0.178628)
+Left position : (-39.6871, 161.592, -24.7302)
+Right Normal : (-0.921569, -0.106213, -0.373402)
+Right position : (126.95, 189.266, 5.10732)
+frame_id : 692
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.872727, 0.454152, 0.179145)
+Left position : (-39.7451, 161.419, -24.712)
+Right Normal : (-0.917844, -0.113867, -0.380259)
+Right position : (129.766, 189.765, 5.8622)
+frame_id : 693
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.872989, 0.453518, 0.179477)
+Left position : (-39.7425, 161.274, -24.6921)
+Right Normal : (-0.913646, -0.125459, -0.386667)
+Right position : (131.909, 190.117, 7.21514)
+frame_id : 694
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.873415, 0.452601, 0.17972)
+Left position : (-39.7097, 161.133, -24.6767)
+Right Normal : (-0.909436, -0.132975, -0.39401)
+Right position : (133.962, 190.175, 7.71246)
+frame_id : 695
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.874102, 0.451133, 0.18007)
+Left position : (-39.6345, 160.979, -24.6398)
+Right Normal : (-0.904216, -0.137206, -0.404435)
+Right position : (136.151, 190.56, 7.57516)
+frame_id : 696
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.874941, 0.449344, 0.180465)
+Left position : (-39.5233, 160.832, -24.6091)
+Right Normal : (-0.900805, -0.138136, -0.411666)
+Right position : (137.707, 190.657, 7.35755)
+frame_id : 697
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.875575, 0.447956, 0.180843)
+Left position : (-39.4021, 160.689, -24.5776)
+Right Normal : (-0.899771, -0.138038, -0.413955)
+Right position : (139.012, 190.559, 7.27351)
+frame_id : 698
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.876583, 0.445971, 0.180866)
+Left position : (-39.2251, 160.547, -24.542)
+Right Normal : (-0.898292, -0.140517, -0.416326)
+Right position : (140.195, 190.261, 7.21456)
+frame_id : 699
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.877503, 0.444129, 0.180938)
+Left position : (-39.0294, 160.371, -24.4807)
+Right Normal : (-0.897842, -0.138822, -0.417861)
+Right position : (141.665, 190.417, 7.25858)
+frame_id : 700
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.878253, 0.442551, 0.181164)
+Left position : (-38.819, 160.2, -24.4177)
+Right Normal : (-0.896654, -0.138438, -0.420532)
+Right position : (142.734, 190.351, 7.47065)
+frame_id : 701
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.87871, 0.441497, 0.181519)
+Left position : (-38.6003, 160.025, -24.3646)
+Right Normal : (-0.896109, -0.140016, -0.42117)
+Right position : (143.763, 190.066, 7.78487)
+frame_id : 702
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.879091, 0.440515, 0.182058)
+Left position : (-38.358, 159.766, -24.2547)
+Right Normal : (-0.895286, -0.143586, -0.421718)
+Right position : (145.144, 190.168, 8.95505)
+frame_id : 703
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.879924, 0.438853, 0.18205)
+Left position : (-38.092, 159.548, -24.1787)
+Right Normal : (-0.894507, -0.145109, -0.422848)
+Right position : (146.097, 190.057, 9.63308)
+frame_id : 704
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.879796, 0.439124, 0.182013)
+Left position : (-37.8941, 159.324, -24.1146)
+Right Normal : (-0.893223, -0.149369, -0.424077)
+Right position : (146.682, 189.886, 10.2162)
+frame_id : 705
+start : 670
+
+Gesture Type: clear_space
+Left Normal : (0.831314, 0.540715, 0.128627)
+Left position : (-39.0977, 153.523, -25.1149)
+Right Normal : (-0.932357, -0.22335, -0.284299)
+Right position : (49.6868, 165.842, -13.3452)
+frame_id : 762
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.834855, 0.53418, 0.132925)
+Left position : (-39.5065, 153.129, -25.1547)
+Right Normal : (-0.936053, -0.204623, -0.286243)
+Right position : (51.5073, 164.663, -12.8272)
+frame_id : 763
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.838855, 0.527245, 0.135408)
+Left position : (-39.8396, 152.764, -25.0791)
+Right Normal : (-0.935402, -0.212646, -0.282496)
+Right position : (55.5934, 166.43, -14.487)
+frame_id : 764
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.838714, 0.525873, 0.141477)
+Left position : (-40.5917, 152.057, -24.9183)
+Right Normal : (-0.938012, -0.18644, -0.292187)
+Right position : (58.016, 165.08, -14.5852)
+frame_id : 765
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837723, 0.525665, 0.147976)
+Left position : (-41.4989, 151.201, -24.5556)
+Right Normal : (-0.934412, -0.189792, -0.301417)
+Right position : (62.0322, 165.521, -12.7793)
+frame_id : 766
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837108, 0.525558, 0.151785)
+Left position : (-42.1962, 150.579, -24.4315)
+Right Normal : (-0.934922, -0.170614, -0.311145)
+Right position : (65.1443, 165.12, -12.5512)
+frame_id : 767
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.836913, 0.524959, 0.154901)
+Left position : (-42.8146, 150.085, -24.3)
+Right Normal : (-0.930741, -0.173119, -0.322105)
+Right position : (69.3982, 166.152, -11.3361)
+frame_id : 768
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837151, 0.523929, 0.157089)
+Left position : (-43.4518, 149.703, -24.1418)
+Right Normal : (-0.933083, -0.148821, -0.327426)
+Right position : (72.3408, 165.613, -11.1561)
+frame_id : 769
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.8388, 0.520891, 0.15839)
+Left position : (-43.9128, 149.417, -24.1702)
+Right Normal : (-0.928641, -0.16154, -0.333962)
+Right position : (77.0666, 166.758, -10.6321)
+frame_id : 770
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.840316, 0.518147, 0.15935)
+Left position : (-44.3029, 149.159, -24.185)
+Right Normal : (-0.930556, -0.133501, -0.340944)
+Right position : (80.2946, 166.267, -11.4809)
+frame_id : 771
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.843886, 0.512216, 0.159661)
+Left position : (-44.6333, 148.936, -24.1841)
+Right Normal : (-0.927225, -0.14652, -0.344653)
+Right position : (85.5251, 168.413, -10.9381)
+frame_id : 772
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.845128, 0.509987, 0.160227)
+Left position : (-45.0885, 148.722, -24.289)
+Right Normal : (-0.933894, -0.107575, -0.340983)
+Right position : (89.1396, 168.859, -10.7645)
+frame_id : 773
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.845833, 0.508767, 0.160386)
+Left position : (-45.7021, 148.47, -24.4542)
+Right Normal : (-0.933113, -0.117864, -0.339719)
+Right position : (94.5248, 170.144, -10.6527)
+frame_id : 774
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.844148, 0.511396, 0.160896)
+Left position : (-46.3752, 148.126, -24.8614)
+Right Normal : (-0.932727, -0.0858073, -0.350225)
+Right position : (97.4688, 170.143, -10.7118)
+frame_id : 775
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.844097, 0.511544, 0.160695)
+Left position : (-46.98, 147.986, -25.2717)
+Right Normal : (-0.928059, -0.115791, -0.353977)
+Right position : (102.56, 171.085, -9.83394)
+frame_id : 776
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.843285, 0.512757, 0.161091)
+Left position : (-47.5134, 147.836, -25.6177)
+Right Normal : (-0.930058, -0.109601, -0.350684)
+Right position : (106.028, 170.318, -6.88145)
+frame_id : 777
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.843333, 0.512743, 0.160887)
+Left position : (-47.944, 147.713, -25.8125)
+Right Normal : (-0.951055, -0.0582376, -0.303484)
+Right position : (108.165, 169.233, -4.5222)
+frame_id : 778
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.841838, 0.515232, 0.160763)
+Left position : (-48.4034, 147.513, -26.0922)
+Right Normal : (-0.940375, -0.0991773, -0.325358)
+Right position : (113.587, 171.69, -5.18829)
+frame_id : 779
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.840913, 0.516851, 0.160408)
+Left position : (-48.8317, 147.367, -26.3657)
+Right Normal : (-0.927294, -0.0973806, -0.361444)
+Right position : (116.433, 172.699, -6.90623)
+frame_id : 780
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.841798, 0.515537, 0.159991)
+Left position : (-49.0747, 147.342, -26.6392)
+Right Normal : (-0.925138, -0.114568, -0.361931)
+Right position : (121.286, 174.591, -7.17345)
+frame_id : 781
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.841914, 0.515419, 0.159765)
+Left position : (-49.3029, 147.271, -26.8994)
+Right Normal : (-0.917288, -0.113811, -0.381615)
+Right position : (124.156, 174.845, -8.12448)
+frame_id : 782
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.84062, 0.517783, 0.15893)
+Left position : (-49.5773, 147.083, -27.1934)
+Right Normal : (-0.912046, -0.129198, -0.389204)
+Right position : (127.808, 176.006, -6.66333)
+frame_id : 783
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.840013, 0.518831, 0.15872)
+Left position : (-49.7558, 146.934, -27.4524)
+Right Normal : (-0.901558, -0.119781, -0.415747)
+Right position : (128.402, 177.137, -6.21624)
+frame_id : 784
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.84015, 0.518723, 0.158348)
+Left position : (-49.8605, 146.836, -27.6108)
+Right Normal : (-0.899037, -0.136702, -0.415986)
+Right position : (131.567, 177.58, -4.41203)
+frame_id : 785
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.839243, 0.52017, 0.15841)
+Left position : (-49.9854, 146.708, -27.7469)
+Right Normal : (-0.891342, -0.145109, -0.42948)
+Right position : (133.512, 177.069, -0.898818)
+frame_id : 786
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.838378, 0.521529, 0.158526)
+Left position : (-50.0896, 146.596, -27.8563)
+Right Normal : (-0.885017, -0.143177, -0.442996)
+Right position : (134.542, 177.229, 1.50316)
+frame_id : 787
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837815, 0.522377, 0.158709)
+Left position : (-50.1557, 146.505, -27.9416)
+Right Normal : (-0.881296, -0.134533, -0.453011)
+Right position : (134.456, 177.036, 1.3511)
+frame_id : 788
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837421, 0.522989, 0.158772)
+Left position : (-50.2014, 146.415, -28.0018)
+Right Normal : (-0.880609, -0.135091, -0.454178)
+Right position : (137.013, 177.185, 2.87415)
+frame_id : 789
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837391, 0.522983, 0.158949)
+Left position : (-50.2082, 146.346, -28.0481)
+Right Normal : (-0.880229, -0.138174, -0.453987)
+Right position : (139.224, 177.326, 5.11261)
+frame_id : 790
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837459, 0.522816, 0.159138)
+Left position : (-50.195, 146.272, -28.0882)
+Right Normal : (-0.881844, -0.131059, -0.452962)
+Right position : (140.85, 177.142, 6.15961)
+frame_id : 791
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837518, 0.522621, 0.159471)
+Left position : (-50.166, 146.171, -28.118)
+Right Normal : (-0.88222, -0.133731, -0.451447)
+Right position : (142.262, 177.995, 6.96054)
+frame_id : 792
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.83786, 0.521968, 0.159816)
+Left position : (-50.0978, 146.073, -28.1617)
+Right Normal : (-0.882007, -0.134951, -0.4515)
+Right position : (143.114, 178.051, 7.14044)
+frame_id : 793
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837745, 0.521839, 0.160835)
+Left position : (-49.9861, 145.908, -28.2345)
+Right Normal : (-0.879624, -0.137745, -0.455289)
+Right position : (143.777, 177.992, 7.06297)
+frame_id : 794
+start : 762
+
+Gesture Type: clear_space
+Left Normal : (0.837523, 0.521832, 0.162007)
+Left position : (-49.856, 145.753, -28.298)
+Right Normal : (-0.877499, -0.139997, -0.45869)
+Right position : (144.342, 177.836, 6.98144)
+frame_id : 795
+start : 762
+
+Gesture Type: point
+frame_id : 864
+from : (-16.6173, 150.703, 23.2461)
+start : 864
+to : (-0.274478, -0.126863, -0.953188)
+
+Gesture Type: point
+frame_id : 865
+from : (-16.1827, 152.687, 20.1857)
+start : 864
+to : (-0.262945, -0.112491, -0.958231)
+
+Gesture Type: point
+frame_id : 866
+from : (-15.782, 154.525, 17.3318)
+start : 864
+to : (-0.252595, -0.0976797, -0.962629)
+
+Gesture Type: point
+frame_id : 867
+from : (-15.4225, 156.213, 14.7131)
+start : 864
+to : (-0.242573, -0.082654, -0.966606)
+
+Gesture Type: point
+frame_id : 868
+from : (-15.0915, 157.824, 12.2519)
+start : 864
+to : (-0.237671, -0.065986, -0.969102)
+
+Gesture Type: point
+frame_id : 869
+from : (-14.7769, 159.41, 9.89505)
+start : 864
+to : (-0.233804, -0.0474162, -0.971127)
+
+Gesture Type: point
+frame_id : 870
+from : (-14.4738, 161.011, 7.5405)
+start : 864
+to : (-0.229679, -0.0366289, -0.972577)
+
+Gesture Type: point
+frame_id : 871
+from : (-14.1846, 162.572, 5.27214)
+start : 864
+to : (-0.230656, -0.0290759, -0.972601)
+
+Gesture Type: point
+frame_id : 872
+from : (-13.8812, 164.208, 2.94083)
+start : 864
+to : (-0.230702, -0.0206159, -0.972806)
+
+Gesture Type: point
+frame_id : 873
+from : (-13.5767, 165.808, 0.666099)
+start : 864
+to : (-0.229318, -0.0153984, -0.97323)
+
+Gesture Type: point
+frame_id : 874
+from : (-13.285, 167.325, -1.49769)
+start : 864
+to : (-0.228153, -0.0123186, -0.973547)
+
+Gesture Type: point
+frame_id : 875
+from : (-13.0079, 168.768, -3.56872)
+start : 864
+to : (-0.226231, -0.0105016, -0.974017)
+
+Gesture Type: point
+frame_id : 876
+from : (-12.7665, 170.078, -5.44495)
+start : 864
+to : (-0.225944, -0.0082184, -0.974106)
+
+Gesture Type: point
+frame_id : 877
+from : (-12.5676, 171.19, -7.07282)
+start : 864
+to : (-0.225739, -0.0091679, -0.974145)
+
+Gesture Type: point
+frame_id : 878
+from : (-12.421, 172.084, -8.40181)
+start : 864
+to : (-0.225113, -0.0109929, -0.974271)
+
+Gesture Type: point
+frame_id : 879
+from : (-12.3112, 172.85, -9.55006)
+start : 864
+to : (-0.22564, -0.0116292, -0.974142)
+
+Gesture Type: point
+frame_id : 880
+from : (-12.2252, 173.529, -10.5669)
+start : 864
+to : (-0.22646, -0.0105305, -0.973964)
+
+Gesture Type: point
+frame_id : 881
+from : (-12.1551, 174.151, -11.4949)
+start : 864
+to : (-0.227385, -0.00907008, -0.973763)
+
+Gesture Type: point
+frame_id : 882
+from : (-12.0941, 174.766, -12.4011)
+start : 864
+to : (-0.228132, -0.00615752, -0.973611)
+
+Gesture Type: point
+frame_id : 883
+from : (-12.0366, 175.414, -13.3469)
+start : 864
+to : (-0.228522, -0.0038223, -0.973531)
+
+Gesture Type: point
+frame_id : 884
+from : (-11.9933, 175.934, -14.1383)
+start : 864
+to : (-0.228143, -0.00651836, -0.973606)
+
+Gesture Type: point
+frame_id : 885
+from : (-11.9592, 176.367, -14.8102)
+start : 864
+to : (-0.227671, -0.00652325, -0.973716)
+
+Gesture Type: point
+frame_id : 886
+from : (-11.8469, 176.773, -15.5015)
+start : 864
+to : (-0.202003, -0.00612525, -0.979366)
+
+Gesture Type: point
+frame_id : 887
+from : (-11.7693, 177.126, -16.0955)
+start : 864
+to : (-0.202381, -0.00357645, -0.9793)
+
+Gesture Type: point
+frame_id : 888
+from : (-11.7203, 177.379, -16.5488)
+start : 864
+to : (-0.203852, -0.00763703, -0.978972)
+
+Gesture Type: point
+frame_id : 889
+from : (-11.6886, 177.561, -16.8777)
+start : 864
+to : (-0.204912, -0.0075282, -0.978751)
+
+Gesture Type: point
+frame_id : 890
+from : (-11.6347, 177.719, -17.2044)
+start : 864
+to : (-0.18803, -0.0121408, -0.982088)
+
+Gesture Type: point
+frame_id : 891
+from : (-11.5556, 177.875, -17.5593)
+start : 864
+to : (-0.173059, -0.014659, -0.984803)
+
+Gesture Type: point
+frame_id : 892
+from : (-11.4519, 178.045, -17.9642)
+start : 864
+to : (-0.164072, -0.0147815, -0.986338)
+
+Gesture Type: point
+frame_id : 893
+from : (-11.377, 178.195, -18.3089)
+start : 864
+to : (-0.171922, -0.012526, -0.985031)
+
+Gesture Type: point
+frame_id : 894
+from : (-11.3291, 178.308, -18.5624)
+start : 864
+to : (-0.177599, -0.0107046, -0.984045)
+
+Gesture Type: point
+frame_id : 895
+from : (-11.2953, 178.399, -18.7614)
+start : 864
+to : (-0.181514, -0.00936697, -0.983344)
+
+Gesture Type: point
+frame_id : 896
+from : (-11.2632, 178.465, -18.9222)
+start : 864
+to : (-0.172247, -0.0136022, -0.98496)
+
+Gesture Type: point
+frame_id : 897
+from : (-11.2285, 178.524, -19.0787)
+start : 864
+to : (-0.165119, -0.0168113, -0.98613)
+
+Gesture Type: point
+frame_id : 898
+from : (-11.1914, 178.58, -19.237)
+start : 864
+to : (-0.160653, -0.0183242, -0.986841)
+
+Gesture Type: point
+frame_id : 899
+from : (-11.1485, 178.64, -19.412)
+start : 864
+to : (-0.157345, -0.0193528, -0.987354)
+
+Gesture Type: point
+frame_id : 900
+from : (-11.1185, 178.687, -19.5457)
+start : 864
+to : (-0.162289, -0.0181183, -0.986577)
+
+Gesture Type: point
+frame_id : 901
+from : (-11.0995, 178.721, -19.6379)
+start : 864
+to : (-0.167142, -0.0164471, -0.985796)
+
+Gesture Type: point
+frame_id : 902
+from : (-11.0835, 178.751, -19.7217)
+start : 864
+to : (-0.171146, -0.0153072, -0.985127)
+
+Gesture Type: point
+frame_id : 903
+from : (-11.0631, 178.794, -19.836)
+start : 864
+to : (-0.17453, -0.013795, -0.984555)
+
+Gesture Type: point
+frame_id : 904
+from : (-11.0446, 178.831, -19.9341)
+start : 864
+to : (-0.171727, -0.0117913, -0.985074)
+
+Gesture Type: point
+frame_id : 905
+from : (-11.025, 178.873, -20.047)
+start : 864
+to : (-0.17473, -0.0105383, -0.98456)
+
+Gesture Type: point
+frame_id : 906
+from : (-10.998, 178.938, -20.218)
+start : 864
+to : (-0.177793, -0.00901029, -0.984027)
+
+Gesture Type: point
+frame_id : 907
+from : (-10.9565, 179.048, -20.5051)
+start : 864
+to : (-0.180454, -0.00716058, -0.983558)
+
+Gesture Type: point
+frame_id : 908
+from : (-10.8995, 179.198, -20.8832)
+start : 864
+to : (-0.178249, -0.00290593, -0.983981)
+
+Gesture Type: point
+frame_id : 909
+from : (-10.8307, 179.377, -21.3299)
+start : 864
+to : (-0.176389, -0.000106524, -0.98432)
+
+Gesture Type: point
+frame_id : 910
+from : (-10.7546, 179.575, -21.8189)
+start : 864
+to : (-0.174987, 0.00167343, -0.984569)
+
+Gesture Type: point
+frame_id : 911
+from : (-10.6831, 179.786, -22.3484)
+start : 864
+to : (-0.178934, 0.000793994, -0.983861)
+
+Gesture Type: point
+frame_id : 912
+from : (-10.6053, 180.053, -23.0091)
+start : 864
+to : (-0.182116, 0.00230752, -0.983274)
+
+Gesture Type: point
+frame_id : 913
+from : (-10.5212, 180.395, -23.842)
+start : 864
+to : (-0.185138, 0.0043167, -0.982703)
+
+Gesture Type: point
+frame_id : 914
+from : (-10.4375, 180.802, -24.8192)
+start : 864
+to : (-0.187748, 0.00547826, -0.982202)
+
+Gesture Type: point
+frame_id : 915
+from : (-10.355, 181.288, -25.9711)
+start : 864
+to : (-0.190179, 0.00644425, -0.981728)
+
+Gesture Type: point
+frame_id : 916
+from : (-10.2787, 181.834, -27.2375)
+start : 864
+to : (-0.191955, 0.00829714, -0.981369)
+
+Gesture Type: point
+frame_id : 917
+from : (-10.2116, 182.451, -28.625)
+start : 864
+to : (-0.193713, 0.0107451, -0.980999)
+
+Gesture Type: point
+frame_id : 918
+from : (-10.1643, 183.103, -30.0444)
+start : 864
+to : (-0.195442, 0.0133149, -0.980625)
+
+Gesture Type: point
+frame_id : 919
+from : (-10.1456, 183.77, -31.4388)
+start : 864
+to : (-0.197727, 0.0152101, -0.980139)
+
+Gesture Type: point
+frame_id : 920
+from : (-10.1795, 184.491, -32.9119)
+start : 864
+to : (-0.199635, 0.0155289, -0.979747)
+
+Gesture Type: point
+frame_id : 921
+from : (-10.2804, 185.189, -34.3101)
+start : 864
+to : (-0.201281, 0.0148299, -0.979421)
+
+Gesture Type: point
+frame_id : 922
+from : (-10.4573, 185.84, -35.6098)
+start : 864
+to : (-0.203587, 0.0119734, -0.978984)
+
+Gesture Type: point
+frame_id : 923
+from : (-10.7007, 186.448, -36.8444)
+start : 864
+to : (-0.206437, 0.00791408, -0.978428)
+
+Gesture Type: point
+frame_id : 924
+from : (-11.0104, 186.95, -37.8901)
+start : 864
+to : (-0.212573, 0.000544783, -0.977145)
+
+Gesture Type: point
+frame_id : 925
+from : (-11.4429, 187.362, -38.7577)
+start : 864
+to : (-0.222323, -0.0094319, -0.974927)
+
+Gesture Type: point
+frame_id : 926
+from : (-12.0756, 187.743, -39.3604)
+start : 864
+to : (-0.238012, -0.0193548, -0.971069)
+
+Gesture Type: point
+frame_id : 927
+from : (-13.062, 188.054, -39.5795)
+start : 864
+to : (-0.268615, -0.0395537, -0.962435)
+
+Gesture Type: point
+frame_id : 928
+from : (-14.5227, 188.281, -39.4608)
+start : 864
+to : (-0.295838, -0.0647417, -0.953042)
+
+Gesture Type: point
+frame_id : 929
+from : (-16.6424, 188.275, -38.8134)
+start : 864
+to : (-0.329305, -0.103002, -0.938589)
+
+Gesture Type: point
+frame_id : 930
+from : (-19.5632, 188.396, -37.4067)
+start : 864
+to : (-0.361171, -0.125905, -0.923961)
+
+Gesture Type: point
+frame_id : 931
+from : (-22.8917, 189.817, -35.2715)
+start : 864
+to : (-0.381747, -0.0960855, -0.919259)
+
+Gesture Type: point
+frame_id : 932
+from : (-26.6844, 193.547, -31.746)
+start : 864
+to : (-0.390105, -0.0369378, -0.920029)
+
+Gesture Type: point
+frame_id : 933
+from : (-30.9163, 198.767, -26.782)
+start : 864
+to : (-0.404786, -0.00214461, -0.914409)
+
+Gesture Type: point
+frame_id : 934
+from : (-34.2741, 203.765, -21.506)
+start : 864
+to : (-0.417475, 0.0293615, -0.908214)
+
+Gesture Type: point
+frame_id : 935
+from : (-36.4782, 208.333, -16.4152)
+start : 864
+to : (-0.431588, 0.0680835, -0.899498)
+
+Gesture Type: clear_space
+Left Normal : (0.933912, 0.308114, 0.181313)
+Left position : (-43.8004, 140.445, -17.4909)
+Right Normal : (-0.973555, -0.110882, -0.199741)
+Right position : (30.3374, 180.155, -2.84878)
+frame_id : 1462
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.933903, 0.317046, 0.165247)
+Left position : (-45.2466, 142.937, -19.6696)
+Right Normal : (-0.973078, -0.0626786, -0.221791)
+Right position : (33.7242, 181.623, -4.4085)
+frame_id : 1463
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.940678, 0.297275, 0.163564)
+Left position : (-46.4379, 145.102, -21.1796)
+Right Normal : (-0.970494, -0.0398471, -0.23781)
+Right position : (37.3448, 182.449, -4.46874)
+frame_id : 1464
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.946379, 0.278587, 0.163576)
+Left position : (-47.2598, 146.516, -21.9323)
+Right Normal : (-0.967264, -0.0296927, -0.252029)
+Right position : (40.7341, 182.525, -2.98123)
+frame_id : 1465
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.946708, 0.276137, 0.165808)
+Left position : (-47.4737, 146.432, -22.0448)
+Right Normal : (-0.965248, -0.0297703, -0.259634)
+Right position : (43.5866, 182.105, -2.45864)
+frame_id : 1466
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.947296, 0.273105, 0.167464)
+Left position : (-47.8358, 146.124, -21.9093)
+Right Normal : (-0.961824, -0.0329011, -0.271683)
+Right position : (46.5128, 180.921, -2.41263)
+frame_id : 1467
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.948707, 0.26631, 0.170393)
+Left position : (-48.3298, 145.792, -21.787)
+Right Normal : (-0.959525, -0.03759, -0.279105)
+Right position : (49.5531, 180.259, -2.33527)
+frame_id : 1468
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.950519, 0.257372, 0.17399)
+Left position : (-49.0296, 145.355, -21.3285)
+Right Normal : (-0.956481, -0.0395712, -0.289098)
+Right position : (52.4044, 179.365, -2.58771)
+frame_id : 1469
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.952597, 0.248795, 0.175101)
+Left position : (-49.631, 144.874, -21.0373)
+Right Normal : (-0.954376, -0.050453, -0.294315)
+Right position : (54.913, 178.561, -3.15781)
+frame_id : 1470
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.954322, 0.240717, 0.17699)
+Left position : (-50.2658, 144.459, -20.7436)
+Right Normal : (-0.952354, -0.058277, -0.299376)
+Right position : (57.5274, 177.814, -3.45725)
+frame_id : 1471
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.957603, 0.227772, 0.176397)
+Left position : (-51.605, 146.085, -20.2669)
+Right Normal : (-0.946988, -0.0677135, -0.314051)
+Right position : (61.4019, 178.649, -2.7623)
+frame_id : 1472
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.967386, 0.183834, 0.174271)
+Left position : (-53.1215, 149.065, -18.8239)
+Right Normal : (-0.943679, -0.0610174, -0.325188)
+Right position : (64.4953, 178.848, -2.43385)
+frame_id : 1473
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.971916, 0.158115, 0.174296)
+Left position : (-54.2397, 150.808, -17.7464)
+Right Normal : (-0.938696, -0.0463924, -0.34161)
+Right position : (68.0035, 179.114, -2.23357)
+frame_id : 1474
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.974612, 0.147544, 0.16841)
+Left position : (-54.9662, 151.78, -17.7151)
+Right Normal : (-0.937285, -0.0355122, -0.34675)
+Right position : (71.4818, 178.829, -1.77398)
+frame_id : 1475
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.976135, 0.151737, 0.155358)
+Left position : (-56.13, 155.692, -16.6072)
+Right Normal : (-0.936952, -0.0321171, -0.34798)
+Right position : (75.047, 178.608, -1.23953)
+frame_id : 1476
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.977679, 0.157783, 0.138736)
+Left position : (-58.1085, 164.839, -16.8452)
+Right Normal : (-0.938133, -0.0367665, -0.344318)
+Right position : (78.8273, 178.462, -0.53399)
+frame_id : 1477
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.982228, 0.140087, 0.124914)
+Left position : (-58.995, 169.423, -17.8137)
+Right Normal : (-0.932638, -0.0283863, -0.359695)
+Right position : (82.6043, 178.825, -0.676299)
+frame_id : 1478
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.986634, 0.119938, 0.110305)
+Left position : (-61.5858, 173.37, -19.0924)
+Right Normal : (-0.927129, -0.0508237, -0.371281)
+Right position : (95.5533, 180.069, -0.069458)
+frame_id : 1479
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.986684, 0.124488, 0.104675)
+Left position : (-61.9064, 173.597, -19.2076)
+Right Normal : (-0.927709, -0.0473772, -0.370286)
+Right position : (97.2026, 179.664, -0.0771393)
+frame_id : 1480
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.987429, 0.12172, 0.100842)
+Left position : (-62.1511, 173.663, -19.2179)
+Right Normal : (-0.925528, -0.0648375, -0.373087)
+Right position : (99.9221, 180.057, 0.232438)
+frame_id : 1481
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.989317, 0.11182, 0.093526)
+Left position : (-62.2177, 173.723, -19.5244)
+Right Normal : (-0.922796, -0.0460091, -0.382533)
+Right position : (100.531, 179.49, -0.329573)
+frame_id : 1482
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.991728, 0.0959618, 0.085247)
+Left position : (-62.5206, 173.677, -18.8708)
+Right Normal : (-0.921495, -0.0569327, -0.384195)
+Right position : (103.619, 179.741, -0.352053)
+frame_id : 1483
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.993577, 0.0687618, 0.0898673)
+Left position : (-62.4832, 172.968, -18.3875)
+Right Normal : (-0.930165, -0.0529681, -0.363301)
+Right position : (105.474, 179.108, 0.0367737)
+frame_id : 1484
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.995433, 0.0388242, 0.0872099)
+Left position : (-61.3168, 169.262, -18.9354)
+Right Normal : (-0.93388, -0.0233316, -0.356825)
+Right position : (106.499, 177.934, 0.374485)
+frame_id : 1485
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.995723, 0.0288204, 0.0877834)
+Left position : (-62.0376, 169.657, -18.3085)
+Right Normal : (-0.930115, -0.0292788, -0.3661)
+Right position : (110.288, 178.197, 1.21234)
+frame_id : 1486
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.995529, 0.0298786, 0.0896013)
+Left position : (-62.8564, 169.011, -16.4077)
+Right Normal : (-0.935463, -0.00451551, -0.353397)
+Right position : (110.661, 177.224, 1.2591)
+frame_id : 1487
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.994941, 0.0228922, 0.0978197)
+Left position : (-64.0006, 168.6, -14.2192)
+Right Normal : (-0.936475, 0.0125723, -0.35051)
+Right position : (110.963, 176.524, 1.20424)
+frame_id : 1488
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.994321, 0.00789034, 0.106133)
+Left position : (-65.1865, 168.153, -11.6116)
+Right Normal : (-0.937784, -0.0208511, -0.346594)
+Right position : (114.495, 177.488, 1.5626)
+frame_id : 1489
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.99305, -0.00753029, 0.117456)
+Left position : (-64.9723, 166.067, -10.5973)
+Right Normal : (-0.936591, -0.0176804, -0.349978)
+Right position : (114.949, 177.171, 0.625885)
+frame_id : 1490
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.992211, -0.0196772, 0.123007)
+Left position : (-65.865, 167.014, -9.14619)
+Right Normal : (-0.934065, -0.0382173, -0.355051)
+Right position : (116.785, 177.949, 0.984428)
+frame_id : 1491
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.990941, -0.0301199, 0.13088)
+Left position : (-66.502, 167.547, -7.70937)
+Right Normal : (-0.938696, -0.0396486, -0.342458)
+Right position : (117.072, 177.663, 1.40036)
+frame_id : 1492
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.991561, -0.0333965, 0.125262)
+Left position : (-65.5695, 164.401, -7.46701)
+Right Normal : (-0.935868, -0.0986981, -0.338244)
+Right position : (118.031, 178.33, 1.41224)
+frame_id : 1493
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.991402, -0.0342832, 0.126277)
+Left position : (-65.6705, 164.598, -7.4402)
+Right Normal : (-0.943251, -0.0881542, -0.320166)
+Right position : (118.551, 177.86, 2.90066)
+frame_id : 1494
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.99008, -0.0443724, 0.133311)
+Left position : (-66.1561, 165.482, -7.00281)
+Right Normal : (-0.939372, -0.0984345, -0.328468)
+Right position : (120.215, 178.041, 3.83149)
+frame_id : 1495
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.989207, -0.0478293, 0.138499)
+Left position : (-66.7839, 166.308, -6.44742)
+Right Normal : (-0.942734, -0.0931173, -0.320283)
+Right position : (120.234, 177.727, 4.43858)
+frame_id : 1496
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.988729, -0.0491903, 0.141405)
+Left position : (-67.3644, 166.827, -5.97907)
+Right Normal : (-0.945987, -0.0899221, -0.311486)
+Right position : (120.254, 177.4, 4.82326)
+frame_id : 1497
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.987972, -0.0516104, 0.145766)
+Left position : (-67.7968, 167.098, -5.81441)
+Right Normal : (-0.947841, -0.0883095, -0.306267)
+Right position : (120.35, 177.104, 5.12549)
+frame_id : 1498
+start : 1462
+
+Gesture Type: clear_space
+Left Normal : (0.960509, -0.101254, 0.259172)
+Left position : (-70.2552, 161.467, -13.4572)
+Right Normal : (-0.813892, -0.295082, -0.500506)
+Right position : (121.546, 170.827, 21.5689)
+frame_id : 1517
+start : 1517
+
+Gesture Type: clear_space
+Left Normal : (0.948435, -0.117788, 0.294275)
+Left position : (-70.0136, 159.371, -12.9703)
+Right Normal : (-0.762613, -0.26855, -0.588474)
+Right position : (122.816, 170.087, 22.5902)
+frame_id : 1518
+start : 1517
+
+Gesture Type: clear_space
+Left Normal : (0.934026, -0.135039, 0.330695)
+Left position : (-69.9972, 157.707, -12.9009)
+Right Normal : (-0.734516, -0.254722, -0.62897)
+Right position : (122.376, 168.816, 25.1723)
+frame_id : 1519
+start : 1517
+
+Gesture Type: clear_space
+Left Normal : (0.899775, -0.377875, 0.218208)
+Left position : (-86.2928, 94.3718, 13.6273)
+Right Normal : (-0.647778, -0.431476, -0.627863)
+Right position : (105.695, 122.607, 45.0443)
+frame_id : 1537
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.896447, -0.370046, 0.243822)
+Left position : (-88.1804, 92.6993, 11.0508)
+Right Normal : (-0.608111, -0.49474, -0.620833)
+Right position : (105.661, 120.093, 41.7043)
+frame_id : 1538
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.897938, -0.363418, 0.248263)
+Left position : (-90.0014, 91.0987, 9.44853)
+Right Normal : (-0.566272, -0.54525, -0.618092)
+Right position : (106.905, 118.288, 39.1317)
+frame_id : 1539
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.895032, -0.370263, 0.248642)
+Left position : (-90.6917, 90.493, 8.16012)
+Right Normal : (-0.5504, -0.595989, -0.584686)
+Right position : (108.177, 115.635, 34.2834)
+frame_id : 1540
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.867516, -0.413979, 0.275749)
+Left position : (-92.1658, 90.6803, 4.28372)
+Right Normal : (-0.519061, -0.633051, -0.574301)
+Right position : (110.214, 113.466, 28.7229)
+frame_id : 1541
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.83708, -0.448442, 0.313365)
+Left position : (-92.6448, 90.9754, 0.520881)
+Right Normal : (-0.52844, -0.626945, -0.572443)
+Right position : (113.615, 108.936, 22.1184)
+frame_id : 1542
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.796058, -0.485828, 0.360919)
+Left position : (-92.8648, 92.0025, -4.96856)
+Right Normal : (-0.542364, -0.635756, -0.549232)
+Right position : (115.644, 103.942, 14.8039)
+frame_id : 1543
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.748229, -0.524619, 0.406112)
+Left position : (-93.2162, 93.0859, -10.6074)
+Right Normal : (-0.545031, -0.62536, -0.558449)
+Right position : (119.684, 100.331, 7.58735)
+frame_id : 1544
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.704068, -0.554874, 0.443173)
+Left position : (-93.3226, 93.9862, -16.2142)
+Right Normal : (-0.53309, -0.605103, -0.591325)
+Right position : (123.962, 96.5325, 0.608603)
+frame_id : 1545
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.672268, -0.560309, 0.483849)
+Left position : (-93.8192, 94.6465, -20.437)
+Right Normal : (-0.492418, -0.580047, -0.648899)
+Right position : (127.066, 93.1015, -4.30221)
+frame_id : 1546
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.71597, -0.608992, 0.341345)
+Left position : (-98.0328, 92.6907, -17.2292)
+Right Normal : (-0.313186, -0.694185, -0.64809)
+Right position : (123.199, 97.6441, -7.84799)
+frame_id : 1547
+start : 1537
+
+Gesture Type: clear_space
+Left Normal : (0.723282, -0.610949, 0.321877)
+Left position : (-98.6313, 90.8871, -14.7913)
+Right Normal : (-0.207929, -0.637567, -0.741804)
+Right position : (123.646, 95.4038, -14.1826)
+frame_id : 1548
+start : 1537
 
