@@ -13,42 +13,11 @@ SRC_DIR = os.path.dirname(inspect.getfile(inspect.currentframe()))
 LIB_DIR = os.path.abspath(os.path.join(SRC_DIR, '../../lib'))
 sys.path.insert(0, LIB_DIR)
 
-import Leap #pylint: disable=import-error, wrong-import-position
+import Leap  # pylint: disable=import-error, wrong-import-position
 from Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
-from ..ogl.application import Application
-
-class Gesture(object):
-    """
-    Identifies and stores gesture data
-    """
-
-    def __init__(self):
-        self.type = 'no_gesture'
-        self.parameters = {}
-
-    def update_gesture(self, gesture_type, details=None):
-        """
-        Updates the gesture parameters
-        """
-        self.type = gesture_type
-        if details is not None:
-            self.parameters.update(details)
-
-    def gesture_data(self):
-        """
-        Sends details of gesture as a dictionary
-        """
-        with open('gesture_data.txt', 'a') as data:
-            data.write("Gesture Type: %s\n" %(self.type))
-            details = self.parameters
-            if len(details) > 0:
-                for param in sorted(details.keys()):
-                    data.write("%s : %s\n" %(param, details[param]))
-            data.write("\n")
-
 
 # Stabilizer can be made into a decorator
-def HandStabilizer(frame, weight=0.7, hand_count={}):
+def hand_stabilizer(frame, weight=0.7, hand_count={}):
     """
     Updates the windowed average of number of visible hands.
     Args:
@@ -66,7 +35,7 @@ def HandStabilizer(frame, weight=0.7, hand_count={}):
             hand_count[count] = weight
     return hand_count
 
-def HandCount(controller, window=10):
+def hand_count(controller, window=10):
     """
     Accounts for errors in detection and delay from the sensor by
     means of a windowed average
@@ -76,7 +45,7 @@ def HandCount(controller, window=10):
     """
     no_of_hands = {0:0, 1:0, 2:0}
     for i in range(window):
-        no_of_hands = HandStabilizer(controller.frame(window-i),hand_count=no_of_hands)
+        no_of_hands = hand_stabilizer(controller.frame(window-i),hand_count=no_of_hands)
     comp = lambda x: no_of_hands[x]
     return max(no_of_hands, key=comp)
 
@@ -106,7 +75,8 @@ class LeapListener(Leap.Listener):
     bone_names = ['Metacarpal', 'Proximal', 'INtermediate', 'Distal']
 
     # Add additional gestures here as keys. Each gestures's parameters
-    gesture = Gesture()
+    def add_callback(self, gesture):
+        self.gesture = gesture
 
     def on_init(self, controller):
         """
@@ -160,7 +130,7 @@ class LeapListener(Leap.Listener):
 
         flag = False
         gesture_name = ""
-        hand_count = HandCount(controller)
+        hand_count = hand_count(controller)
         details = {'frame_id': frame.id}
         print(hand_count)
         if hand_count == 2:
@@ -188,7 +158,7 @@ class LeapListener(Leap.Listener):
             if finger_count == 1 and extended_fingers[0].type == 1:
                 gesture_name = "point"
                 if self.gesture.type != gesture_name:
-                    details['start'] = frame.id    
+                    details['start'] = frame.id
                 flag = True
 
                 forward_finger = extended_fingers[0]
@@ -204,25 +174,3 @@ class LeapListener(Leap.Listener):
             print("Gesture name: %s" %(gesture_name))
         else:
             self.gesture = Gesture()
-
-
-def main():
-    """
-    Runs the application
-    """
-    listener = LeapListener()
-    controller = Leap.Controller()
-
-    controller.add_listener(listener)
-
-    print("Press enter to quit")
-    try:
-        sys.stdin.readline()
-    except KeyboardInterrupt:
-        pass
-    finally:
-        controller.remove_listener(listener)
-        #print("Thank you for trying our program")
-
-if __name__ == '__main__':
-    main()

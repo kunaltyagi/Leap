@@ -27,6 +27,7 @@ class GLInterface(object):  # pylint: disable=too-many-instance-attributes
         self.far = 300
         self.bg_color = [0.1, 0.1, 0.5, 0.2]
         self.keys = {}  # 133 keys in PyGame
+        self.cleanup = None
 
         pygame.init()
         pygame.display.set_mode(self.display,
@@ -127,6 +128,8 @@ class GLInterface(object):  # pylint: disable=too-many-instance-attributes
         """
         Quit the application properly
         """
+        if self.cleanup is not None:
+            self.cleanup()
         pygame.quit()
         quit()
 
