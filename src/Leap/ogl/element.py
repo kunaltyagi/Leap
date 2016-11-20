@@ -61,6 +61,8 @@ class Element(object):
     def modify_pose(self, delta_pose=None):
         """
         Edit the position and rotation of the element
+
+        :param delta_pose: the change in pose wrt a base pose
         """
         if not delta_pose:
             return
@@ -76,6 +78,9 @@ class Element(object):
     def fix_pose(self, pose=None):
         """
         Save the current position for future use
+
+        :param pose: a new explicit pose, in absence of which the current pose
+            is made the new base pose
         """
         if not pose:
             pose = self.pose
@@ -84,6 +89,8 @@ class Element(object):
     def adjust(self, parameters=None):
         """
         Edit the parameters
+
+        :param parameters: any parameters (data member) to change
         """
         if not parameters:
             return
@@ -94,6 +101,8 @@ class Element(object):
     def transform(self, pose=None):
         """
         Moves the object around on the screen
+
+        :param pose: if None the current pose else a new pose to transform to
         """
         if not pose:
             pose = self.pose

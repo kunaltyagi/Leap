@@ -29,6 +29,8 @@ class Application(GLInterface):
     def leap_gesture(self, gesture):
         """
         Captures gestures from leap-motion and performs required functionality
+
+        :param gestures: any input gesture, differentiated based on gestures.type
         """
         if gesture is None:
             return
@@ -41,6 +43,8 @@ class Application(GLInterface):
     def key_down(self, key):
         """
         Caputes key-down events and performs required functionality
+
+        :param key: the key pressed
         """
         # Move this out of key_down function
         if key == pygame.K_UP:

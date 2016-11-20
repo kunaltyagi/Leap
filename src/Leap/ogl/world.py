@@ -28,6 +28,8 @@ class World:
     def add_element(self, element):
         """
         adds an element onto the screen
+
+        :param element: adds the element to the list
         """
         self.elements.append(element)
         self.active_elements = [self.elements[-1]]
@@ -41,6 +43,8 @@ class World:
     def transform(self, pose=None):
         """
         modifies the elements selected
+
+        :param pose: :py:func:`Leap.ogl.element.Element.transform`
         """
         for element in self.active_elements:
             element.transform(pose)
