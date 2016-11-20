@@ -43,7 +43,7 @@ class Application(GLInterface):
             self.camera_move(gesture)
 
     def camera_move(self, gesture):
-        print(gesture.parameter)
+        print(gesture.parameters)
 
     def key_down(self, key):
         """
