@@ -39,6 +39,11 @@ class Application(GLInterface):
             return
         elif gesture.type == 'clear_space':
             self.world.clear()
+        elif gesture.type == "swipe":
+            self.camera_move(gesture)
+
+    def camera_move(self, gesture):
+        print(gesture.parameter)
 
     def key_down(self, key):
         """
