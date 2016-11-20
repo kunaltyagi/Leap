@@ -15,9 +15,9 @@ sys.path.insert(0, LIB_DIR)
 
 import Leap #pylint: disable=import-error, wrong-import-position
 from Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
+from ..ogl.application import Application
 
-
-class Gesture():
+class Gesture(object):
     """
     Identifies and stores gesture data
     """
