@@ -47,7 +47,8 @@ class GLInterface(object):  # pylint: disable=too-many-instance-attributes
             pygame.KEYUP: lambda: self.key_up(event.key),
             pygame.MOUSEBUTTONDOWN: self.mouse_motion,
             pygame.MOUSEBUTTONUP: lambda: self.mouse_button_up(event),
-            pygame.MOUSEMOTION: lambda: self.mouse_button_down(event)
+            pygame.MOUSEMOTION: lambda: self.mouse_button_down(event),
+            pygame.USEREVENT + 1: lambda: self.other_events(event)
         }
         return handlers.get(event.type,
                             lambda: self.unimplemented("Event {}".\
@@ -84,6 +85,12 @@ class GLInterface(object):  # pylint: disable=too-many-instance-attributes
         Detect motion of mouse
         """
         self.unimplemented("Mouse motion")
+
+    def other_events(self, event):
+        """
+        Any other events
+        """
+        pass
 
     def init_loop(self):
         """
