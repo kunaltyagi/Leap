@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Leap 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="None" href="index.html#document-index" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="nav-item nav-item-0"><a href="index.html#document-index">Leap 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-leap-s-documentation">
+<h1>Welcome to Leap&#8217;s documentation!<a class="headerlink" href="#welcome-to-leap-s-documentation" title="Permalink to this headline">¶</a></h1>
+<p>Leap is a bare-basic implementation of how future CAD interfaces
+would be like. It consists of</p>
+<ul class="simple">
+<li>input from a 3D device (currently Leap Motion) which is converted to <strong>Gestures</strong>. Each gesture signifies an action to the application.</li>
+<li>application which accepts the data in 3D unlike the 2D input from a mouse. The application here is a simple Cylinder being controlled in OpenGL</li>
+</ul>
+<div class="section" id="contents">
+<h2>Contents:<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<span id="document-modules"></span><div class="section" id="src">
+<h3>src<a class="headerlink" href="#src" title="Permalink to this headline">¶</a></h3>
+<div class="toctree-wrapper compound">
+<span id="document-Leap"></span><div class="section" id="leap-package">
+<h4>Leap package<a class="headerlink" href="#leap-package" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="subpackages">
+<h5>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h5>
+<div class="toctree-wrapper compound">
+<span id="document-Leap.leap"></span><div class="section" id="leap-leap-package">
+<h6>Leap.leap package<a class="headerlink" href="#leap-leap-package" title="Permalink to this headline">¶</a></h6>
+<div class="section" id="submodules">
+<h7>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h7>
+</div>
+<div class="section" id="leap-leap-leap-start-module">
+<h7>Leap.leap.leap_start module<a class="headerlink" href="#leap-leap-leap-start-module" title="Permalink to this headline">¶</a></h7>
+</div>
+<div class="section" id="module-Leap.leap">
+<span id="module-contents"></span><h7>Module contents<a class="headerlink" href="#module-Leap.leap" title="Permalink to this headline">¶</a></h7>
+</div>
+</div>
+<span id="document-Leap.ogl"></span><div class="section" id="leap-ogl-package">
+<h6>Leap.ogl package<a class="headerlink" href="#leap-ogl-package" title="Permalink to this headline">¶</a></h6>
+<div class="section" id="submodules">
+<h7>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h7>
+</div>
+<div class="section" id="module-Leap.ogl.application">
+<span id="leap-ogl-application-module"></span><h7>Leap.ogl.application module<a class="headerlink" href="#module-Leap.ogl.application" title="Permalink to this headline">¶</a></h7>
+<p>Actual implementation of application</p>
+<dl class="class">
+<dt id="Leap.ogl.application.Application">
+<em class="property">class </em><code class="descclassname">Leap.ogl.application.</code><code class="descname">Application</code><a class="reference internal" href="_modules/Leap/ogl/application.html#Application"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.application.Application" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#Leap.ogl.interface.GLInterface" title="Leap.ogl.interface.GLInterface"><code class="xref py py-class docutils literal"><span class="pre">Leap.ogl.interface.GLInterface</span></code></a></p>
+<p>Implementation of GLInterface</p>
+<dl class="method">
+<dt id="Leap.ogl.application.Application.camera_move">
+<code class="descname">camera_move</code><span class="sig-paren">(</span><em>gesture</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/application.html#Application.camera_move"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.application.Application.camera_move" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.application.Application.display_loop">
+<code class="descname">display_loop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/application.html#Application.display_loop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.application.Application.display_loop" title="Permalink to this definition">¶</a></dt>
+<dd><p>called everytime OpenGL refreshes</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.application.Application.key_down">
+<code class="descname">key_down</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/application.html#Application.key_down"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.application.Application.key_down" title="Permalink to this definition">¶</a></dt>
+<dd><p>Caputes key-down events and performs required functionality</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key</strong> &#8211; the key pressed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.application.Application.leap_gesture">
+<code class="descname">leap_gesture</code><span class="sig-paren">(</span><em>gesture</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/application.html#Application.leap_gesture"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.application.Application.leap_gesture" title="Permalink to this definition">¶</a></dt>
+<dd><p>Captures gestures from leap-motion and performs required functionality</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>gestures</strong> &#8211; any input gesture, differentiated based on gestures.type</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="Leap.ogl.application.main">
+<code class="descclassname">Leap.ogl.application.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/application.html#main"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.application.main" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function to setup and run the application</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-Leap.ogl.element">
+<span id="leap-ogl-element-module"></span><h7>Leap.ogl.element module<a class="headerlink" href="#module-Leap.ogl.element" title="Permalink to this headline">¶</a></h7>
+<p>Make all transformations, handle creation, deletion requests, etc.</p>
+<dl class="class">
+<dt id="Leap.ogl.element.Element">
+<em class="property">class </em><code class="descclassname">Leap.ogl.element.</code><code class="descname">Element</code><a class="reference internal" href="_modules/Leap/ogl/element.html#Element"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<p>Stores an element (something to be drawn on the screen)</p>
+<dl class="method">
+<dt id="Leap.ogl.element.Element.adjust">
+<code class="descname">adjust</code><span class="sig-paren">(</span><em>parameters=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Element.adjust"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element.adjust" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edit the parameters</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>parameters</strong> &#8211; any parameters (data member) to change</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.element.Element.cleanup">
+<code class="descname">cleanup</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Element.cleanup"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element.cleanup" title="Permalink to this definition">¶</a></dt>
+<dd><p>Any memory to be freed (like quadrics)</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.element.Element.create">
+<code class="descname">create</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Element.create"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element.create" title="Permalink to this definition">¶</a></dt>
+<dd><p>Any setup required</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.element.Element.display">
+<code class="descname">display</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Element.display"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element.display" title="Permalink to this definition">¶</a></dt>
+<dd><p>Display onto the screen</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.element.Element.draw">
+<code class="descname">draw</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Element.draw"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element.draw" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draw here, not anywhere else</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.element.Element.fix_pose">
+<code class="descname">fix_pose</code><span class="sig-paren">(</span><em>pose=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Element.fix_pose"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element.fix_pose" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save the current position for future use</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pose</strong> &#8211; a new explicit pose, in absence of which the current pose
+is made the new base pose</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.element.Element.init">
+<code class="descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Element.init"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element.init" title="Permalink to this definition">¶</a></dt>
+<dd><p>Don&#8217;t quite know the use right now</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.element.Element.modify_pose">
+<code class="descname">modify_pose</code><span class="sig-paren">(</span><em>delta_pose=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Element.modify_pose"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element.modify_pose" title="Permalink to this definition">¶</a></dt>
+<dd><p>Edit the position and rotation of the element</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>delta_pose</strong> &#8211; the change in pose wrt a base pose</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.element.Element.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>pose=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Element.transform"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Element.transform" title="Permalink to this definition">¶</a></dt>
+<dd><p>Moves the object around on the screen</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pose</strong> &#8211; if None the current pose else a new pose to transform to</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="Leap.ogl.element.Joint">
+<em class="property">class </em><code class="descclassname">Leap.ogl.element.</code><code class="descname">Joint</code><span class="sig-paren">(</span><em>parent</em>, <em>child</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Joint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Joint" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#Leap.ogl.element.Element" title="Leap.ogl.element.Element"><code class="xref py py-class docutils literal"><span class="pre">Leap.ogl.element.Element</span></code></a></p>
+<p>Joins two elements by invisible bonds</p>
+<dl class="method">
+<dt id="Leap.ogl.element.Joint.cleanup">
+<code class="descname">cleanup</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Joint.cleanup"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Joint.cleanup" title="Permalink to this definition">¶</a></dt>
+<dd><p>Performs proper cleanup</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.element.Joint.draw">
+<code class="descname">draw</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/element.html#Joint.draw"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.element.Joint.draw" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draws the child element wrt the parent element</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-Leap.ogl.interface">
+<span id="leap-ogl-interface-module"></span><h7>Leap.ogl.interface module<a class="headerlink" href="#module-Leap.ogl.interface" title="Permalink to this headline">¶</a></h7>
+<p>Wrapper around PyOpenGL and PyGame</p>
+<dl class="class">
+<dt id="Leap.ogl.interface.GLInterface">
+<em class="property">class </em><code class="descclassname">Leap.ogl.interface.</code><code class="descname">GLInterface</code><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<p>Creates a screen, and allows easy evaluation of events</p>
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.display_loop">
+<code class="descname">display_loop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.display_loop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.display_loop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main display function, called every iteration</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.event_handler">
+<code class="descname">event_handler</code><span class="sig-paren">(</span><em>event</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.event_handler"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.event_handler" title="Permalink to this definition">¶</a></dt>
+<dd><p>A big switch case function for input event</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>event</strong> &#8211; pygame.Event, used to check for events</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">handler for event.type</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.init">
+<code class="descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.init"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.init" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the env settings for the application in the beginning</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.init_loop">
+<code class="descname">init_loop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.init_loop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.init_loop" title="Permalink to this definition">¶</a></dt>
+<dd><p>It is called before drawing on the screen each time</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.key_down">
+<code class="descname">key_down</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.key_down"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.key_down" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key</strong> &#8211; key pressed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.key_up">
+<code class="descname">key_up</code><span class="sig-paren">(</span><em>key</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.key_up"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.key_up" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>key</strong> &#8211; key unpressed</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.main_loop">
+<code class="descname">main_loop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.main_loop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.main_loop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Blocking loop, as per the convention of opengl</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.mouse_button_down">
+<code class="descname">mouse_button_down</code><span class="sig-paren">(</span><em>event</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.mouse_button_down"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.mouse_button_down" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>event</strong> &#8211; directly passes from event-handler</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.mouse_button_up">
+<code class="descname">mouse_button_up</code><span class="sig-paren">(</span><em>event</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.mouse_button_up"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.mouse_button_up" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>event</strong> &#8211; directly passes from event-handler</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.mouse_motion">
+<code class="descname">mouse_motion</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.mouse_motion"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.mouse_motion" title="Permalink to this definition">¶</a></dt>
+<dd><p>Detect motion of mouse</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.stop_and_exit">
+<code class="descname">stop_and_exit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.stop_and_exit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.stop_and_exit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Quit the application properly</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.interface.GLInterface.unimplemented">
+<code class="descname">unimplemented</code><span class="sig-paren">(</span><em>something</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/interface.html#GLInterface.unimplemented"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.interface.GLInterface.unimplemented" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple wrapper around print for ease
+:param something: any printable object</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="leap-ogl-quaternion-module">
+<h7>Leap.ogl.quaternion module<a class="headerlink" href="#leap-ogl-quaternion-module" title="Permalink to this headline">¶</a></h7>
+</div>
+<div class="section" id="module-Leap.ogl.sample_elements">
+<span id="leap-ogl-sample-elements-module"></span><h7>Leap.ogl.sample_elements module<a class="headerlink" href="#module-Leap.ogl.sample_elements" title="Permalink to this headline">¶</a></h7>
+<p>Stores a sample of possible elemens.
+Called sample because it doesn&#8217;t implement all functionality and does a lot of ad-hoc things</p>
+<dl class="class">
+<dt id="Leap.ogl.sample_elements.Cube">
+<em class="property">class </em><code class="descclassname">Leap.ogl.sample_elements.</code><code class="descname">Cube</code><a class="reference internal" href="_modules/Leap/ogl/sample_elements.html#Cube"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.sample_elements.Cube" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#Leap.ogl.element.Element" title="Leap.ogl.element.Element"><code class="xref py py-class docutils literal"><span class="pre">Leap.ogl.element.Element</span></code></a></p>
+<p>Draws a wireframe cube</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="Leap.ogl.sample_elements.Cylinder">
+<em class="property">class </em><code class="descclassname">Leap.ogl.sample_elements.</code><code class="descname">Cylinder</code><span class="sig-paren">(</span><em>top_radius=3</em>, <em>bottom_radius=3</em>, <em>height=5</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/sample_elements.html#Cylinder"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.sample_elements.Cylinder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#Leap.ogl.element.Element" title="Leap.ogl.element.Element"><code class="xref py py-class docutils literal"><span class="pre">Leap.ogl.element.Element</span></code></a></p>
+<p>Draws a cone or a cone frustum or a cylinder</p>
+<dl class="method">
+<dt id="Leap.ogl.sample_elements.Cylinder.adjust">
+<code class="descname">adjust</code><span class="sig-paren">(</span><em>parameters=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/sample_elements.html#Cylinder.adjust"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.sample_elements.Cylinder.adjust" title="Permalink to this definition">¶</a></dt>
+<dd><p>sets the parameters (if any) and the origin to be the center</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.sample_elements.Cylinder.draw">
+<code class="descname">draw</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/sample_elements.html#Cylinder.draw"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.sample_elements.Cylinder.draw" title="Permalink to this definition">¶</a></dt>
+<dd><p>Draws the cylinder</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-Leap.ogl.world">
+<span id="leap-ogl-world-module"></span><h7>Leap.ogl.world module<a class="headerlink" href="#module-Leap.ogl.world" title="Permalink to this headline">¶</a></h7>
+<p>Analogue to Stage in a typical application</p>
+<dl class="class">
+<dt id="Leap.ogl.world.World">
+<em class="property">class </em><code class="descclassname">Leap.ogl.world.</code><code class="descname">World</code><a class="reference internal" href="_modules/Leap/ogl/world.html#World"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.world.World" title="Permalink to this definition">¶</a></dt>
+<dd><p>holds all the elements, and interface to modify any element</p>
+<dl class="method">
+<dt id="Leap.ogl.world.World.add_element">
+<code class="descname">add_element</code><span class="sig-paren">(</span><em>element</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/world.html#World.add_element"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.world.World.add_element" title="Permalink to this definition">¶</a></dt>
+<dd><p>adds an element onto the screen</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>element</strong> &#8211; adds the element to the list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.world.World.clear">
+<code class="descname">clear</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/world.html#World.clear"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.world.World.clear" title="Permalink to this definition">¶</a></dt>
+<dd><p>removes all the elements</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.world.World.display">
+<code class="descname">display</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/world.html#World.display"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.world.World.display" title="Permalink to this definition">¶</a></dt>
+<dd><p>displays the elements to the screen</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Leap.ogl.world.World.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>pose=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Leap/ogl/world.html#World.transform"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#Leap.ogl.world.World.transform" title="Permalink to this definition">¶</a></dt>
+<dd><p>modifies the elements selected</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pose</strong> &#8211; <a class="reference internal" href="#Leap.ogl.element.Element.transform" title="Leap.ogl.element.Element.transform"><code class="xref py py-func docutils literal"><span class="pre">Leap.ogl.element.Element.transform()</span></code></a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-Leap.ogl">
+<span id="module-contents"></span><h7>Module contents<a class="headerlink" href="#module-Leap.ogl" title="Permalink to this headline">¶</a></h7>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="submodules">
+<h5>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h5>
+</div>
+<div class="section" id="leap-main-module">
+<h5>Leap.main module<a class="headerlink" href="#leap-main-module" title="Permalink to this headline">¶</a></h5>
+</div>
+<div class="section" id="module-Leap">
+<span id="module-contents"></span><h5>Module contents<a class="headerlink" href="#module-Leap" title="Permalink to this headline">¶</a></h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html#document-index">Table Of Contents</a></h3>
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-modules">src</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#document-Leap">Leap package</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="nav-item nav-item-0"><a href="index.html#document-index">Leap 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2016, Kunal Tyagi, Pradyumna Paruchuri.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.
+    </div>
+  </body>
+</html>
