@@ -10,6 +10,7 @@ Jinja2==2.8
 lazy-object-proxy==1.2.2
 MarkupSafe==0.23
 mccabe==0.5.2
+numba
 numpy==1.11.2
 numpy-quaternion===0.0.0.dev2016.11.19
 pygame==1.9.2b8
