@@ -40,25 +40,10 @@ class Application(GLInterface):
         elif gesture.type == 'clear_space':
             self.world.clear()
         elif gesture.type == "swipe":
-            pygame.event.post(pygame.event.Event(pygame.USEREVENT+1,
-                              parameter=gesture.parameters,
-                              gesture="swipe"))
-            # self.camera_move(gesture)
+            self.camera_move(gesture)
 
-    def other_events(self, event):
-        print(event.type)
-        if event.gesture == "swipe":
-            delta = [x - y for x, y in zip(event.parameter['position'],
-                                           event.parameter['start_position'])]
-            self.camera_move(delta)
-
-    def camera_move(self, delta):
-        t = self.del_camera['translate']
-        glTranslatef(-t[0], -t[1], -t[2])
-        for i in range(0, 3):
-            self.del_camera['translate'][i] += delta[i]
-        t = self.del_camera['translate']
-        glTranslatef(t[0], t[1], t[2])
+    def camera_move(self, gesture):
+        print(gesture.parameters)
 
     def key_down(self, key):
         """
@@ -83,13 +68,6 @@ class Application(GLInterface):
             glTranslatef(0, 0, 10)
         elif key == pygame.K_s:
             glTranslatef(0, 0, -10)
-        # elif key == pygame.K_7:
-        #     class Gesture():
-        #         def __init__(self):
-        #             self.type = 'swipe'
-        #             self.parameters={'start_position': [0, 2, 4],
-        #                              'position': [0, 5, 8]}
-        #     self.leap_gesture(Gesture())
         # Handle <Esc> specially if you don't want the program to end here
         GLInterface.key_down(self, key)
 

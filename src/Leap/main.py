@@ -5,9 +5,9 @@
 Demo application for 3D CAD
 """
 
-from Leap.leap.leap_start import Leap as OrigLeap
-from Leap.leap.leap_start import LeapListener
-from Leap.ogl.application import Application
+from leap.leap_start import Leap as OrigLeap
+from leap.leap_start import LeapListener
+from ogl.application import Application
 
 
 class Gesture(object):

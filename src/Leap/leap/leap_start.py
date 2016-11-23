@@ -83,7 +83,7 @@ class LeapListener(Leap.Listener):
         controller.enable_gesture(Leap.Gesture.TYPE_SWIPE)
 
         controller.config.set("Gesture.Swipe.MinLength", 10.0)
-        controller.config.set("Gesture.Swipe.MinVelocity", 50)
+        controller.config.set("Gesture.Swipe.MinVelocity", 4)
         controller.config.set("Gesture.ScreenTap.MinForwardVelocity", 1.0)
         controller.config.set("Gesture.ScreenTap.MinDistance", 0.5)
         controller.config.set("Gesture.Circle.MinRadius", 5.0)
@@ -120,7 +120,6 @@ class LeapListener(Leap.Listener):
         flag = False
         gesture_name = ""
         count = hand_count(controller)
-        print(count)
 
         details = {'frame_id': frame.id}
         for gesture in frame.gestures():
@@ -154,7 +153,10 @@ class LeapListener(Leap.Listener):
 
                 if gesture.state is Leap.Gesture.STATE_START:
                     details['start'] = frame.id
-                    details['start_position'] = details['position']
+                    details['start_position'] = swipe.position
+                    details['prev_position'] = details['start_position']
+                else:
+                    details['prev_position'] = self.gesture.parameters['position']
                 flag = True
                 continue
 
@@ -173,6 +175,7 @@ class LeapListener(Leap.Listener):
 
             # Define parameters to characterise the gesture.
 
+        # Point gesture
         #elif count == 1 and not flag:
         #    # Check for the following gestures: point, #to be added soon
         #    extended_fingers = frame.fingers.extended()
@@ -190,7 +193,6 @@ class LeapListener(Leap.Listener):
         #        # Return the position on screen being pointed by the
         #        # forward most finger
 
-        print('Frame: %d' %(frame.id))
         if flag:
             self.gesture.update_gesture(gesture_name, details)
             self.gesture.gesture_data()
